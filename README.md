@@ -30,6 +30,6 @@ dependencies:
 
 ### colors
 
-![](images/dcos/colors.png)
+![](images/docs/colors.png)
 
 > Has the same color hint as the official library.

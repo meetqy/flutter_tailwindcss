@@ -1,3 +1,7 @@
+## 0.0.2+1
+
+- readme image error
+
 ## 0.0.2
 
 - add `TwColor`
