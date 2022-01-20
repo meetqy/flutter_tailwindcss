@@ -1,6 +1,6 @@
 name: flutter_tailwindcss
-description: A new Flutter package project.
-version: 0.0.1
+description: Experience using tailwind on the Flutter!
+version: 0.0.2
 homepage: https://github.com/meetqy/flutter_tailwindcss
 
 environment:
