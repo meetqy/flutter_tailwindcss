@@ -7,7 +7,7 @@ class TwColor extends ColorSwatch<int> {
 
   /// The slate primary color and swatch.
   ///
-  /// ![](../../images/colors/slate.png)
+  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/slate.png)
   ///
   /// {@tool snippet}
   ///
