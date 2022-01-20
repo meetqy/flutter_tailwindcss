@@ -10,14 +10,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  json_annotation: ^4.4.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^1.0.0
-  json_serializable: ^6.1.4
-  build_runner: ^2.1.7
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
