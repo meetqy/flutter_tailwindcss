@@ -15,7 +15,7 @@ dependencies:
 
 | doing | name           | verison |
 | ----- | -------------- | ------- |
-| [x]   | `TwColor`      | `0.0.2` |
+| - [x]   | `TwColor`      | `0.0.2` |
 | [ ]   | `Spacing`      | -       |
 | [ ]   | `FontSize`     | -       |
 | [ ]   | `FontWeight`   | -       |
