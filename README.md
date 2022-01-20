@@ -13,26 +13,16 @@ dependencies:
 
 ## Planing
 
-| doing | name           | verison |
-| ----- | -------------- | ------- |
-| [x]   | `TwColor`      | `0.0.2` |
-| [ ]   | `Spacing`      | -       |
-| [ ]   | `FontSize`     | -       |
-| [ ]   | `FontWeight`   | -       |
-| [ ]   | `BorderRadius` | -       |
-| [ ]   | `BorderWidth`  | -       |
-| [ ]   | `Divide`       | -       |
-| [ ]   | `Shadow`       | -       |
-
-- [x] `TwColor` `version: 0.0.2`
-- [ ] `Spacing`
-- [ ] `FontSize`
-- [ ] `FontWeight`
-- [ ] `BorderRadius`
-- [ ] `BorderWidth`
-- [ ] `Divide`
-- [ ] `Ring`
-- [ ] `Shadow`
+| doing      | name           | verison |
+| ---------- | -------------- | ------- |
+| 🚀 done    | `TwColor`      | `0.0.2` |
+| 👷 doing   | `Spacing`      | -       |
+| ⏳ planing | `FontSize`     | -       |
+| ⏳ planing | `FontWeight`   | -       |
+| ⏳ planing | `BorderRadius` | -       |
+| ⏳ planing | `BorderWidth`  | -       |
+| ⏳ planing | `Divide`       | -       |
+| ⏳ planing | `Shadow`       | -       |
 
 > I think so much for the moment, and I will modify it according to the actual situation later.
 
