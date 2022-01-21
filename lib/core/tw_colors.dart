@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import "package:flutter/material.dart";
 
 class TwColor extends ColorSwatch<int> {
   const TwColor(int primary, Map<int, Color> swatch) : super(primary, swatch);
@@ -7,7 +7,7 @@ class TwColor extends ColorSwatch<int> {
 
   /// The slate primary color and swatch.
   ///
-  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/Slate.png)
+  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/slate.png);
   ///
   static const MaterialColor slate =
       MaterialColor(_slatePrimaryValue, <int, Color>{
@@ -27,7 +27,7 @@ class TwColor extends ColorSwatch<int> {
 
   /// The slate primary color and swatch.
   ///
-  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/Gray.png)
+  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/gray.png);
   ///
   static const MaterialColor gray =
       MaterialColor(_slatePrimaryValue, <int, Color>{
@@ -47,7 +47,7 @@ class TwColor extends ColorSwatch<int> {
 
   /// The slate primary color and swatch.
   ///
-  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/Zinc.png)
+  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/zinc.png);
   ///
   static const MaterialColor zinc =
       MaterialColor(_slatePrimaryValue, <int, Color>{
@@ -67,7 +67,7 @@ class TwColor extends ColorSwatch<int> {
 
   /// The slate primary color and swatch.
   ///
-  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/Neutral.png)
+  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/neutral.png);
   ///
   static const MaterialColor neutral =
       MaterialColor(_slatePrimaryValue, <int, Color>{
@@ -87,7 +87,7 @@ class TwColor extends ColorSwatch<int> {
 
   /// The slate primary color and swatch.
   ///
-  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/Stone.png)
+  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/stone.png);
   ///
   static const MaterialColor stone =
       MaterialColor(_slatePrimaryValue, <int, Color>{
@@ -107,7 +107,7 @@ class TwColor extends ColorSwatch<int> {
 
   /// The slate primary color and swatch.
   ///
-  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/Red.png)
+  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/red.png);
   ///
   static const MaterialColor redTw =
       MaterialColor(_slatePrimaryValue, <int, Color>{
@@ -127,7 +127,7 @@ class TwColor extends ColorSwatch<int> {
 
   /// The slate primary color and swatch.
   ///
-  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/Orange.png)
+  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/orange.png);
   ///
   static const MaterialColor orange =
       MaterialColor(_slatePrimaryValue, <int, Color>{
@@ -147,7 +147,7 @@ class TwColor extends ColorSwatch<int> {
 
   /// The slate primary color and swatch.
   ///
-  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/Amber.png)
+  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/amber.png);
   ///
   static const MaterialColor amber =
       MaterialColor(_slatePrimaryValue, <int, Color>{
@@ -167,7 +167,7 @@ class TwColor extends ColorSwatch<int> {
 
   /// The slate primary color and swatch.
   ///
-  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/Yellow.png)
+  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/yellow.png);
   ///
   static const MaterialColor yellow =
       MaterialColor(_slatePrimaryValue, <int, Color>{
@@ -187,7 +187,7 @@ class TwColor extends ColorSwatch<int> {
 
   /// The slate primary color and swatch.
   ///
-  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/Lime.png)
+  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/lime.png);
   ///
   static const MaterialColor lime =
       MaterialColor(_slatePrimaryValue, <int, Color>{
@@ -207,7 +207,7 @@ class TwColor extends ColorSwatch<int> {
 
   /// The slate primary color and swatch.
   ///
-  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/Green.png)
+  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/green.png);
   ///
   static const MaterialColor greenTw =
       MaterialColor(_slatePrimaryValue, <int, Color>{
@@ -227,7 +227,7 @@ class TwColor extends ColorSwatch<int> {
 
   /// The slate primary color and swatch.
   ///
-  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/Emerald.png)
+  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/emerald.png);
   ///
   static const MaterialColor emerald =
       MaterialColor(_slatePrimaryValue, <int, Color>{
@@ -247,7 +247,7 @@ class TwColor extends ColorSwatch<int> {
 
   /// The slate primary color and swatch.
   ///
-  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/Teal.png)
+  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/teal.png);
   ///
   static const MaterialColor teal =
       MaterialColor(_slatePrimaryValue, <int, Color>{
@@ -267,7 +267,7 @@ class TwColor extends ColorSwatch<int> {
 
   /// The slate primary color and swatch.
   ///
-  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/Cyan.png)
+  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/cyan.png);
   ///
   static const MaterialColor cyan =
       MaterialColor(_slatePrimaryValue, <int, Color>{
@@ -287,7 +287,7 @@ class TwColor extends ColorSwatch<int> {
 
   /// The slate primary color and swatch.
   ///
-  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/Sky.png)
+  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/sky.png);
   ///
   static const MaterialColor sky =
       MaterialColor(_slatePrimaryValue, <int, Color>{
@@ -307,7 +307,7 @@ class TwColor extends ColorSwatch<int> {
 
   /// The slate primary color and swatch.
   ///
-  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/Blue.png)
+  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/blue.png);
   ///
   static const MaterialColor blueTw =
       MaterialColor(_slatePrimaryValue, <int, Color>{
@@ -327,7 +327,7 @@ class TwColor extends ColorSwatch<int> {
 
   /// The slate primary color and swatch.
   ///
-  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/Indigo.png)
+  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/indigo.png);
   ///
   static const MaterialColor indigo =
       MaterialColor(_slatePrimaryValue, <int, Color>{
@@ -347,7 +347,7 @@ class TwColor extends ColorSwatch<int> {
 
   /// The slate primary color and swatch.
   ///
-  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/Violet.png)
+  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/violet.png);
   ///
   static const MaterialColor violet =
       MaterialColor(_slatePrimaryValue, <int, Color>{
@@ -367,7 +367,7 @@ class TwColor extends ColorSwatch<int> {
 
   /// The slate primary color and swatch.
   ///
-  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/Purple.png)
+  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/purple.png);
   ///
   static const MaterialColor purple =
       MaterialColor(_slatePrimaryValue, <int, Color>{
@@ -387,7 +387,7 @@ class TwColor extends ColorSwatch<int> {
 
   /// The slate primary color and swatch.
   ///
-  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/Fuchsia.png)
+  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/fuchsia.png);
   ///
   static const MaterialColor fuchsia =
       MaterialColor(_slatePrimaryValue, <int, Color>{
@@ -407,7 +407,7 @@ class TwColor extends ColorSwatch<int> {
 
   /// The slate primary color and swatch.
   ///
-  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/Pink.png)
+  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/pink.png);
   ///
   static const MaterialColor pink =
       MaterialColor(_slatePrimaryValue, <int, Color>{
@@ -427,7 +427,7 @@ class TwColor extends ColorSwatch<int> {
 
   /// The slate primary color and swatch.
   ///
-  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/Rose.png)
+  /// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/rose.png);
   ///
   static const MaterialColor rose =
       MaterialColor(_slatePrimaryValue, <int, Color>{
