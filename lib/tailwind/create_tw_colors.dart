@@ -27,7 +27,7 @@ void main() {
         '/// The slate primary color and swatch.\n///\n/// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/$key.png);\n///\n';
 
     str +=
-        'static const MaterialColor ${name} =MaterialColor(_slatePrimaryValue, <int, Color>{\n';
+        'static const MaterialColor $name =MaterialColor(_slatePrimaryValue, <int, Color>{\n';
     str += '50: Color(${hexToColor(value["50"].toString())}),\n';
     str += '100: Color(${hexToColor(value["100"].toString())}),\n';
     str += '200: Color(${hexToColor(value["200"].toString())}),\n';

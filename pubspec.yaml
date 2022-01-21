@@ -1,6 +1,6 @@
 name: flutter_tailwindcss
 description: Experience using tailwind on the Flutter!
-version: 0.0.2+1
+version: 0.0.3
 homepage: https://github.com/meetqy/flutter_tailwindcss
 
 environment:
@@ -10,14 +10,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  path: ^1.8.0  
+  
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^1.0.0
-  path: any
   
-
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
