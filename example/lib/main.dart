@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tailwindcss/core/tw_colors.dart';
 import 'package:flutter_tailwindcss/flutter_tailwindcss.dart';
 
 void main() {

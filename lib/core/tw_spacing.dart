@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import "package:flutter/material.dart";
 
 class TwSpacing {
   /// ```
@@ -14,14 +14,14 @@ class TwSpacing {
   static EdgeInsets y1 = const EdgeInsets.symmetric(vertical: 4);
 
   /// ```
-  /// left: 4;
-  /// ```
-  static EdgeInsets l1 = const EdgeInsets.only(left: 4);
-
-  /// ```
   /// right: 4;
   /// ```
   static EdgeInsets r1 = const EdgeInsets.only(right: 4);
+
+  /// ```
+  /// left: 4;
+  /// ```
+  static EdgeInsets l1 = const EdgeInsets.only(left: 4);
 
   /// ```
   /// top: 4;
@@ -34,7 +34,7 @@ class TwSpacing {
   static EdgeInsets b1 = const EdgeInsets.only(bottom: 4);
 
   /// ```
-  /// all: 4
+  /// all: 4;
   /// ```
   static EdgeInsets a1 = const EdgeInsets.all(4);
 
@@ -51,14 +51,14 @@ class TwSpacing {
   static EdgeInsets y2 = const EdgeInsets.symmetric(vertical: 8);
 
   /// ```
-  /// left: 8;
-  /// ```
-  static EdgeInsets l2 = const EdgeInsets.only(left: 8);
-
-  /// ```
   /// right: 8;
   /// ```
   static EdgeInsets r2 = const EdgeInsets.only(right: 8);
+
+  /// ```
+  /// left: 8;
+  /// ```
+  static EdgeInsets l2 = const EdgeInsets.only(left: 8);
 
   /// ```
   /// top: 8;
@@ -71,7 +71,7 @@ class TwSpacing {
   static EdgeInsets b2 = const EdgeInsets.only(bottom: 8);
 
   /// ```
-  /// all: 8
+  /// all: 8;
   /// ```
   static EdgeInsets a2 = const EdgeInsets.all(8);
 
@@ -88,14 +88,14 @@ class TwSpacing {
   static EdgeInsets y3 = const EdgeInsets.symmetric(vertical: 12);
 
   /// ```
-  /// left: 12;
-  /// ```
-  static EdgeInsets l3 = const EdgeInsets.only(left: 12);
-
-  /// ```
   /// right: 12;
   /// ```
   static EdgeInsets r3 = const EdgeInsets.only(right: 12);
+
+  /// ```
+  /// left: 12;
+  /// ```
+  static EdgeInsets l3 = const EdgeInsets.only(left: 12);
 
   /// ```
   /// top: 12;
@@ -108,7 +108,7 @@ class TwSpacing {
   static EdgeInsets b3 = const EdgeInsets.only(bottom: 12);
 
   /// ```
-  /// all: 12
+  /// all: 12;
   /// ```
   static EdgeInsets a3 = const EdgeInsets.all(12);
 
@@ -125,14 +125,14 @@ class TwSpacing {
   static EdgeInsets y4 = const EdgeInsets.symmetric(vertical: 16);
 
   /// ```
-  /// left: 16;
-  /// ```
-  static EdgeInsets l4 = const EdgeInsets.only(left: 16);
-
-  /// ```
   /// right: 16;
   /// ```
   static EdgeInsets r4 = const EdgeInsets.only(right: 16);
+
+  /// ```
+  /// left: 16;
+  /// ```
+  static EdgeInsets l4 = const EdgeInsets.only(left: 16);
 
   /// ```
   /// top: 16;
@@ -145,7 +145,7 @@ class TwSpacing {
   static EdgeInsets b4 = const EdgeInsets.only(bottom: 16);
 
   /// ```
-  /// all: 16
+  /// all: 16;
   /// ```
   static EdgeInsets a4 = const EdgeInsets.all(16);
 
@@ -162,14 +162,14 @@ class TwSpacing {
   static EdgeInsets y5 = const EdgeInsets.symmetric(vertical: 20);
 
   /// ```
-  /// left: 20;
-  /// ```
-  static EdgeInsets l5 = const EdgeInsets.only(left: 20);
-
-  /// ```
   /// right: 20;
   /// ```
   static EdgeInsets r5 = const EdgeInsets.only(right: 20);
+
+  /// ```
+  /// left: 20;
+  /// ```
+  static EdgeInsets l5 = const EdgeInsets.only(left: 20);
 
   /// ```
   /// top: 20;
@@ -182,7 +182,7 @@ class TwSpacing {
   static EdgeInsets b5 = const EdgeInsets.only(bottom: 20);
 
   /// ```
-  /// all: 20
+  /// all: 20;
   /// ```
   static EdgeInsets a5 = const EdgeInsets.all(20);
 
@@ -199,14 +199,14 @@ class TwSpacing {
   static EdgeInsets y6 = const EdgeInsets.symmetric(vertical: 24);
 
   /// ```
-  /// left: 24;
-  /// ```
-  static EdgeInsets l6 = const EdgeInsets.only(left: 24);
-
-  /// ```
   /// right: 24;
   /// ```
   static EdgeInsets r6 = const EdgeInsets.only(right: 24);
+
+  /// ```
+  /// left: 24;
+  /// ```
+  static EdgeInsets l6 = const EdgeInsets.only(left: 24);
 
   /// ```
   /// top: 24;
@@ -219,7 +219,7 @@ class TwSpacing {
   static EdgeInsets b6 = const EdgeInsets.only(bottom: 24);
 
   /// ```
-  /// all: 24
+  /// all: 24;
   /// ```
   static EdgeInsets a6 = const EdgeInsets.all(24);
 
@@ -236,14 +236,14 @@ class TwSpacing {
   static EdgeInsets y7 = const EdgeInsets.symmetric(vertical: 28);
 
   /// ```
-  /// left: 28;
-  /// ```
-  static EdgeInsets l7 = const EdgeInsets.only(left: 28);
-
-  /// ```
   /// right: 28;
   /// ```
   static EdgeInsets r7 = const EdgeInsets.only(right: 28);
+
+  /// ```
+  /// left: 28;
+  /// ```
+  static EdgeInsets l7 = const EdgeInsets.only(left: 28);
 
   /// ```
   /// top: 28;
@@ -256,7 +256,7 @@ class TwSpacing {
   static EdgeInsets b7 = const EdgeInsets.only(bottom: 28);
 
   /// ```
-  /// all: 28
+  /// all: 28;
   /// ```
   static EdgeInsets a7 = const EdgeInsets.all(28);
 
@@ -273,14 +273,14 @@ class TwSpacing {
   static EdgeInsets y8 = const EdgeInsets.symmetric(vertical: 32);
 
   /// ```
-  /// left: 32;
-  /// ```
-  static EdgeInsets l8 = const EdgeInsets.only(left: 32);
-
-  /// ```
   /// right: 32;
   /// ```
   static EdgeInsets r8 = const EdgeInsets.only(right: 32);
+
+  /// ```
+  /// left: 32;
+  /// ```
+  static EdgeInsets l8 = const EdgeInsets.only(left: 32);
 
   /// ```
   /// top: 32;
@@ -293,7 +293,7 @@ class TwSpacing {
   static EdgeInsets b8 = const EdgeInsets.only(bottom: 32);
 
   /// ```
-  /// all: 32
+  /// all: 32;
   /// ```
   static EdgeInsets a8 = const EdgeInsets.all(32);
 
@@ -310,14 +310,14 @@ class TwSpacing {
   static EdgeInsets y9 = const EdgeInsets.symmetric(vertical: 36);
 
   /// ```
-  /// left: 36;
-  /// ```
-  static EdgeInsets l9 = const EdgeInsets.only(left: 36);
-
-  /// ```
   /// right: 36;
   /// ```
   static EdgeInsets r9 = const EdgeInsets.only(right: 36);
+
+  /// ```
+  /// left: 36;
+  /// ```
+  static EdgeInsets l9 = const EdgeInsets.only(left: 36);
 
   /// ```
   /// top: 36;
@@ -330,7 +330,7 @@ class TwSpacing {
   static EdgeInsets b9 = const EdgeInsets.only(bottom: 36);
 
   /// ```
-  /// all: 36
+  /// all: 36;
   /// ```
   static EdgeInsets a9 = const EdgeInsets.all(36);
 
@@ -347,14 +347,14 @@ class TwSpacing {
   static EdgeInsets y10 = const EdgeInsets.symmetric(vertical: 40);
 
   /// ```
-  /// left: 40;
-  /// ```
-  static EdgeInsets l10 = const EdgeInsets.only(left: 40);
-
-  /// ```
   /// right: 40;
   /// ```
   static EdgeInsets r10 = const EdgeInsets.only(right: 40);
+
+  /// ```
+  /// left: 40;
+  /// ```
+  static EdgeInsets l10 = const EdgeInsets.only(left: 40);
 
   /// ```
   /// top: 40;
@@ -367,7 +367,7 @@ class TwSpacing {
   static EdgeInsets b10 = const EdgeInsets.only(bottom: 40);
 
   /// ```
-  /// all: 40
+  /// all: 40;
   /// ```
   static EdgeInsets a10 = const EdgeInsets.all(40);
 
@@ -384,14 +384,14 @@ class TwSpacing {
   static EdgeInsets y11 = const EdgeInsets.symmetric(vertical: 44);
 
   /// ```
-  /// left: 44;
-  /// ```
-  static EdgeInsets l11 = const EdgeInsets.only(left: 44);
-
-  /// ```
   /// right: 44;
   /// ```
   static EdgeInsets r11 = const EdgeInsets.only(right: 44);
+
+  /// ```
+  /// left: 44;
+  /// ```
+  static EdgeInsets l11 = const EdgeInsets.only(left: 44);
 
   /// ```
   /// top: 44;
@@ -404,7 +404,7 @@ class TwSpacing {
   static EdgeInsets b11 = const EdgeInsets.only(bottom: 44);
 
   /// ```
-  /// all: 44
+  /// all: 44;
   /// ```
   static EdgeInsets a11 = const EdgeInsets.all(44);
 
@@ -421,14 +421,14 @@ class TwSpacing {
   static EdgeInsets y12 = const EdgeInsets.symmetric(vertical: 48);
 
   /// ```
-  /// left: 48;
-  /// ```
-  static EdgeInsets l12 = const EdgeInsets.only(left: 48);
-
-  /// ```
   /// right: 48;
   /// ```
   static EdgeInsets r12 = const EdgeInsets.only(right: 48);
+
+  /// ```
+  /// left: 48;
+  /// ```
+  static EdgeInsets l12 = const EdgeInsets.only(left: 48);
 
   /// ```
   /// top: 48;
@@ -441,7 +441,7 @@ class TwSpacing {
   static EdgeInsets b12 = const EdgeInsets.only(bottom: 48);
 
   /// ```
-  /// all: 48
+  /// all: 48;
   /// ```
   static EdgeInsets a12 = const EdgeInsets.all(48);
 
@@ -458,14 +458,14 @@ class TwSpacing {
   static EdgeInsets y14 = const EdgeInsets.symmetric(vertical: 56);
 
   /// ```
-  /// left: 56;
-  /// ```
-  static EdgeInsets l14 = const EdgeInsets.only(left: 56);
-
-  /// ```
   /// right: 56;
   /// ```
   static EdgeInsets r14 = const EdgeInsets.only(right: 56);
+
+  /// ```
+  /// left: 56;
+  /// ```
+  static EdgeInsets l14 = const EdgeInsets.only(left: 56);
 
   /// ```
   /// top: 56;
@@ -478,7 +478,7 @@ class TwSpacing {
   static EdgeInsets b14 = const EdgeInsets.only(bottom: 56);
 
   /// ```
-  /// all: 56
+  /// all: 56;
   /// ```
   static EdgeInsets a14 = const EdgeInsets.all(56);
 
@@ -495,14 +495,14 @@ class TwSpacing {
   static EdgeInsets y15 = const EdgeInsets.symmetric(vertical: 6);
 
   /// ```
-  /// left: 6;
-  /// ```
-  static EdgeInsets l15 = const EdgeInsets.only(left: 6);
-
-  /// ```
   /// right: 6;
   /// ```
   static EdgeInsets r15 = const EdgeInsets.only(right: 6);
+
+  /// ```
+  /// left: 6;
+  /// ```
+  static EdgeInsets l15 = const EdgeInsets.only(left: 6);
 
   /// ```
   /// top: 6;
@@ -515,7 +515,7 @@ class TwSpacing {
   static EdgeInsets b15 = const EdgeInsets.only(bottom: 6);
 
   /// ```
-  /// all: 6
+  /// all: 6;
   /// ```
   static EdgeInsets a15 = const EdgeInsets.all(6);
 
@@ -532,14 +532,14 @@ class TwSpacing {
   static EdgeInsets y16 = const EdgeInsets.symmetric(vertical: 64);
 
   /// ```
-  /// left: 64;
-  /// ```
-  static EdgeInsets l16 = const EdgeInsets.only(left: 64);
-
-  /// ```
   /// right: 64;
   /// ```
   static EdgeInsets r16 = const EdgeInsets.only(right: 64);
+
+  /// ```
+  /// left: 64;
+  /// ```
+  static EdgeInsets l16 = const EdgeInsets.only(left: 64);
 
   /// ```
   /// top: 64;
@@ -552,7 +552,7 @@ class TwSpacing {
   static EdgeInsets b16 = const EdgeInsets.only(bottom: 64);
 
   /// ```
-  /// all: 64
+  /// all: 64;
   /// ```
   static EdgeInsets a16 = const EdgeInsets.all(64);
 
@@ -569,14 +569,14 @@ class TwSpacing {
   static EdgeInsets y20 = const EdgeInsets.symmetric(vertical: 80);
 
   /// ```
-  /// left: 80;
-  /// ```
-  static EdgeInsets l20 = const EdgeInsets.only(left: 80);
-
-  /// ```
   /// right: 80;
   /// ```
   static EdgeInsets r20 = const EdgeInsets.only(right: 80);
+
+  /// ```
+  /// left: 80;
+  /// ```
+  static EdgeInsets l20 = const EdgeInsets.only(left: 80);
 
   /// ```
   /// top: 80;
@@ -589,7 +589,7 @@ class TwSpacing {
   static EdgeInsets b20 = const EdgeInsets.only(bottom: 80);
 
   /// ```
-  /// all: 80
+  /// all: 80;
   /// ```
   static EdgeInsets a20 = const EdgeInsets.all(80);
 
@@ -606,14 +606,14 @@ class TwSpacing {
   static EdgeInsets y24 = const EdgeInsets.symmetric(vertical: 96);
 
   /// ```
-  /// left: 96;
-  /// ```
-  static EdgeInsets l24 = const EdgeInsets.only(left: 96);
-
-  /// ```
   /// right: 96;
   /// ```
   static EdgeInsets r24 = const EdgeInsets.only(right: 96);
+
+  /// ```
+  /// left: 96;
+  /// ```
+  static EdgeInsets l24 = const EdgeInsets.only(left: 96);
 
   /// ```
   /// top: 96;
@@ -626,7 +626,7 @@ class TwSpacing {
   static EdgeInsets b24 = const EdgeInsets.only(bottom: 96);
 
   /// ```
-  /// all: 96
+  /// all: 96;
   /// ```
   static EdgeInsets a24 = const EdgeInsets.all(96);
 
@@ -643,14 +643,14 @@ class TwSpacing {
   static EdgeInsets y25 = const EdgeInsets.symmetric(vertical: 10);
 
   /// ```
-  /// left: 10;
-  /// ```
-  static EdgeInsets l25 = const EdgeInsets.only(left: 10);
-
-  /// ```
   /// right: 10;
   /// ```
   static EdgeInsets r25 = const EdgeInsets.only(right: 10);
+
+  /// ```
+  /// left: 10;
+  /// ```
+  static EdgeInsets l25 = const EdgeInsets.only(left: 10);
 
   /// ```
   /// top: 10;
@@ -663,7 +663,7 @@ class TwSpacing {
   static EdgeInsets b25 = const EdgeInsets.only(bottom: 10);
 
   /// ```
-  /// all: 10
+  /// all: 10;
   /// ```
   static EdgeInsets a25 = const EdgeInsets.all(10);
 
@@ -680,14 +680,14 @@ class TwSpacing {
   static EdgeInsets y28 = const EdgeInsets.symmetric(vertical: 112);
 
   /// ```
-  /// left: 112;
-  /// ```
-  static EdgeInsets l28 = const EdgeInsets.only(left: 112);
-
-  /// ```
   /// right: 112;
   /// ```
   static EdgeInsets r28 = const EdgeInsets.only(right: 112);
+
+  /// ```
+  /// left: 112;
+  /// ```
+  static EdgeInsets l28 = const EdgeInsets.only(left: 112);
 
   /// ```
   /// top: 112;
@@ -700,7 +700,7 @@ class TwSpacing {
   static EdgeInsets b28 = const EdgeInsets.only(bottom: 112);
 
   /// ```
-  /// all: 112
+  /// all: 112;
   /// ```
   static EdgeInsets a28 = const EdgeInsets.all(112);
 
@@ -717,14 +717,14 @@ class TwSpacing {
   static EdgeInsets y32 = const EdgeInsets.symmetric(vertical: 128);
 
   /// ```
-  /// left: 128;
-  /// ```
-  static EdgeInsets l32 = const EdgeInsets.only(left: 128);
-
-  /// ```
   /// right: 128;
   /// ```
   static EdgeInsets r32 = const EdgeInsets.only(right: 128);
+
+  /// ```
+  /// left: 128;
+  /// ```
+  static EdgeInsets l32 = const EdgeInsets.only(left: 128);
 
   /// ```
   /// top: 128;
@@ -737,7 +737,7 @@ class TwSpacing {
   static EdgeInsets b32 = const EdgeInsets.only(bottom: 128);
 
   /// ```
-  /// all: 128
+  /// all: 128;
   /// ```
   static EdgeInsets a32 = const EdgeInsets.all(128);
 
@@ -754,14 +754,14 @@ class TwSpacing {
   static EdgeInsets y35 = const EdgeInsets.symmetric(vertical: 14);
 
   /// ```
-  /// left: 14;
-  /// ```
-  static EdgeInsets l35 = const EdgeInsets.only(left: 14);
-
-  /// ```
   /// right: 14;
   /// ```
   static EdgeInsets r35 = const EdgeInsets.only(right: 14);
+
+  /// ```
+  /// left: 14;
+  /// ```
+  static EdgeInsets l35 = const EdgeInsets.only(left: 14);
 
   /// ```
   /// top: 14;
@@ -774,7 +774,7 @@ class TwSpacing {
   static EdgeInsets b35 = const EdgeInsets.only(bottom: 14);
 
   /// ```
-  /// all: 14
+  /// all: 14;
   /// ```
   static EdgeInsets a35 = const EdgeInsets.all(14);
 
@@ -791,14 +791,14 @@ class TwSpacing {
   static EdgeInsets y36 = const EdgeInsets.symmetric(vertical: 144);
 
   /// ```
-  /// left: 144;
-  /// ```
-  static EdgeInsets l36 = const EdgeInsets.only(left: 144);
-
-  /// ```
   /// right: 144;
   /// ```
   static EdgeInsets r36 = const EdgeInsets.only(right: 144);
+
+  /// ```
+  /// left: 144;
+  /// ```
+  static EdgeInsets l36 = const EdgeInsets.only(left: 144);
 
   /// ```
   /// top: 144;
@@ -811,7 +811,7 @@ class TwSpacing {
   static EdgeInsets b36 = const EdgeInsets.only(bottom: 144);
 
   /// ```
-  /// all: 144
+  /// all: 144;
   /// ```
   static EdgeInsets a36 = const EdgeInsets.all(144);
 
@@ -828,14 +828,14 @@ class TwSpacing {
   static EdgeInsets y40 = const EdgeInsets.symmetric(vertical: 160);
 
   /// ```
-  /// left: 160;
-  /// ```
-  static EdgeInsets l40 = const EdgeInsets.only(left: 160);
-
-  /// ```
   /// right: 160;
   /// ```
   static EdgeInsets r40 = const EdgeInsets.only(right: 160);
+
+  /// ```
+  /// left: 160;
+  /// ```
+  static EdgeInsets l40 = const EdgeInsets.only(left: 160);
 
   /// ```
   /// top: 160;
@@ -848,7 +848,7 @@ class TwSpacing {
   static EdgeInsets b40 = const EdgeInsets.only(bottom: 160);
 
   /// ```
-  /// all: 160
+  /// all: 160;
   /// ```
   static EdgeInsets a40 = const EdgeInsets.all(160);
 
@@ -865,14 +865,14 @@ class TwSpacing {
   static EdgeInsets y44 = const EdgeInsets.symmetric(vertical: 176);
 
   /// ```
-  /// left: 176;
-  /// ```
-  static EdgeInsets l44 = const EdgeInsets.only(left: 176);
-
-  /// ```
   /// right: 176;
   /// ```
   static EdgeInsets r44 = const EdgeInsets.only(right: 176);
+
+  /// ```
+  /// left: 176;
+  /// ```
+  static EdgeInsets l44 = const EdgeInsets.only(left: 176);
 
   /// ```
   /// top: 176;
@@ -885,7 +885,7 @@ class TwSpacing {
   static EdgeInsets b44 = const EdgeInsets.only(bottom: 176);
 
   /// ```
-  /// all: 176
+  /// all: 176;
   /// ```
   static EdgeInsets a44 = const EdgeInsets.all(176);
 
@@ -902,14 +902,14 @@ class TwSpacing {
   static EdgeInsets y48 = const EdgeInsets.symmetric(vertical: 192);
 
   /// ```
-  /// left: 192;
-  /// ```
-  static EdgeInsets l48 = const EdgeInsets.only(left: 192);
-
-  /// ```
   /// right: 192;
   /// ```
   static EdgeInsets r48 = const EdgeInsets.only(right: 192);
+
+  /// ```
+  /// left: 192;
+  /// ```
+  static EdgeInsets l48 = const EdgeInsets.only(left: 192);
 
   /// ```
   /// top: 192;
@@ -922,7 +922,7 @@ class TwSpacing {
   static EdgeInsets b48 = const EdgeInsets.only(bottom: 192);
 
   /// ```
-  /// all: 192
+  /// all: 192;
   /// ```
   static EdgeInsets a48 = const EdgeInsets.all(192);
 
@@ -939,14 +939,14 @@ class TwSpacing {
   static EdgeInsets y52 = const EdgeInsets.symmetric(vertical: 208);
 
   /// ```
-  /// left: 208;
-  /// ```
-  static EdgeInsets l52 = const EdgeInsets.only(left: 208);
-
-  /// ```
   /// right: 208;
   /// ```
   static EdgeInsets r52 = const EdgeInsets.only(right: 208);
+
+  /// ```
+  /// left: 208;
+  /// ```
+  static EdgeInsets l52 = const EdgeInsets.only(left: 208);
 
   /// ```
   /// top: 208;
@@ -959,7 +959,7 @@ class TwSpacing {
   static EdgeInsets b52 = const EdgeInsets.only(bottom: 208);
 
   /// ```
-  /// all: 208
+  /// all: 208;
   /// ```
   static EdgeInsets a52 = const EdgeInsets.all(208);
 
@@ -976,14 +976,14 @@ class TwSpacing {
   static EdgeInsets y56 = const EdgeInsets.symmetric(vertical: 224);
 
   /// ```
-  /// left: 224;
-  /// ```
-  static EdgeInsets l56 = const EdgeInsets.only(left: 224);
-
-  /// ```
   /// right: 224;
   /// ```
   static EdgeInsets r56 = const EdgeInsets.only(right: 224);
+
+  /// ```
+  /// left: 224;
+  /// ```
+  static EdgeInsets l56 = const EdgeInsets.only(left: 224);
 
   /// ```
   /// top: 224;
@@ -996,7 +996,7 @@ class TwSpacing {
   static EdgeInsets b56 = const EdgeInsets.only(bottom: 224);
 
   /// ```
-  /// all: 224
+  /// all: 224;
   /// ```
   static EdgeInsets a56 = const EdgeInsets.all(224);
 
@@ -1013,14 +1013,14 @@ class TwSpacing {
   static EdgeInsets y60 = const EdgeInsets.symmetric(vertical: 240);
 
   /// ```
-  /// left: 240;
-  /// ```
-  static EdgeInsets l60 = const EdgeInsets.only(left: 240);
-
-  /// ```
   /// right: 240;
   /// ```
   static EdgeInsets r60 = const EdgeInsets.only(right: 240);
+
+  /// ```
+  /// left: 240;
+  /// ```
+  static EdgeInsets l60 = const EdgeInsets.only(left: 240);
 
   /// ```
   /// top: 240;
@@ -1033,7 +1033,7 @@ class TwSpacing {
   static EdgeInsets b60 = const EdgeInsets.only(bottom: 240);
 
   /// ```
-  /// all: 240
+  /// all: 240;
   /// ```
   static EdgeInsets a60 = const EdgeInsets.all(240);
 
@@ -1050,14 +1050,14 @@ class TwSpacing {
   static EdgeInsets y64 = const EdgeInsets.symmetric(vertical: 256);
 
   /// ```
-  /// left: 256;
-  /// ```
-  static EdgeInsets l64 = const EdgeInsets.only(left: 256);
-
-  /// ```
   /// right: 256;
   /// ```
   static EdgeInsets r64 = const EdgeInsets.only(right: 256);
+
+  /// ```
+  /// left: 256;
+  /// ```
+  static EdgeInsets l64 = const EdgeInsets.only(left: 256);
 
   /// ```
   /// top: 256;
@@ -1070,7 +1070,7 @@ class TwSpacing {
   static EdgeInsets b64 = const EdgeInsets.only(bottom: 256);
 
   /// ```
-  /// all: 256
+  /// all: 256;
   /// ```
   static EdgeInsets a64 = const EdgeInsets.all(256);
 
@@ -1087,14 +1087,14 @@ class TwSpacing {
   static EdgeInsets y72 = const EdgeInsets.symmetric(vertical: 288);
 
   /// ```
-  /// left: 288;
-  /// ```
-  static EdgeInsets l72 = const EdgeInsets.only(left: 288);
-
-  /// ```
   /// right: 288;
   /// ```
   static EdgeInsets r72 = const EdgeInsets.only(right: 288);
+
+  /// ```
+  /// left: 288;
+  /// ```
+  static EdgeInsets l72 = const EdgeInsets.only(left: 288);
 
   /// ```
   /// top: 288;
@@ -1107,7 +1107,7 @@ class TwSpacing {
   static EdgeInsets b72 = const EdgeInsets.only(bottom: 288);
 
   /// ```
-  /// all: 288
+  /// all: 288;
   /// ```
   static EdgeInsets a72 = const EdgeInsets.all(288);
 
@@ -1124,14 +1124,14 @@ class TwSpacing {
   static EdgeInsets y80 = const EdgeInsets.symmetric(vertical: 320);
 
   /// ```
-  /// left: 320;
-  /// ```
-  static EdgeInsets l80 = const EdgeInsets.only(left: 320);
-
-  /// ```
   /// right: 320;
   /// ```
   static EdgeInsets r80 = const EdgeInsets.only(right: 320);
+
+  /// ```
+  /// left: 320;
+  /// ```
+  static EdgeInsets l80 = const EdgeInsets.only(left: 320);
 
   /// ```
   /// top: 320;
@@ -1144,7 +1144,7 @@ class TwSpacing {
   static EdgeInsets b80 = const EdgeInsets.only(bottom: 320);
 
   /// ```
-  /// all: 320
+  /// all: 320;
   /// ```
   static EdgeInsets a80 = const EdgeInsets.all(320);
 
@@ -1161,14 +1161,14 @@ class TwSpacing {
   static EdgeInsets y96 = const EdgeInsets.symmetric(vertical: 384);
 
   /// ```
-  /// left: 384;
-  /// ```
-  static EdgeInsets l96 = const EdgeInsets.only(left: 384);
-
-  /// ```
   /// right: 384;
   /// ```
   static EdgeInsets r96 = const EdgeInsets.only(right: 384);
+
+  /// ```
+  /// left: 384;
+  /// ```
+  static EdgeInsets l96 = const EdgeInsets.only(left: 384);
 
   /// ```
   /// top: 384;
@@ -1181,7 +1181,7 @@ class TwSpacing {
   static EdgeInsets b96 = const EdgeInsets.only(bottom: 384);
 
   /// ```
-  /// all: 384
+  /// all: 384;
   /// ```
   static EdgeInsets a96 = const EdgeInsets.all(384);
 
@@ -1198,14 +1198,14 @@ class TwSpacing {
   static EdgeInsets yzero = const EdgeInsets.symmetric(vertical: 0);
 
   /// ```
-  /// left: 0;
-  /// ```
-  static EdgeInsets lzero = const EdgeInsets.only(left: 0);
-
-  /// ```
   /// right: 0;
   /// ```
   static EdgeInsets rzero = const EdgeInsets.only(right: 0);
+
+  /// ```
+  /// left: 0;
+  /// ```
+  static EdgeInsets lzero = const EdgeInsets.only(left: 0);
 
   /// ```
   /// top: 0;
@@ -1218,7 +1218,7 @@ class TwSpacing {
   static EdgeInsets bzero = const EdgeInsets.only(bottom: 0);
 
   /// ```
-  /// all: 0
+  /// all: 0;
   /// ```
   static EdgeInsets azero = const EdgeInsets.all(0);
 
@@ -1235,14 +1235,14 @@ class TwSpacing {
   static EdgeInsets yempty = const EdgeInsets.symmetric(vertical: 1);
 
   /// ```
-  /// left: 1;
-  /// ```
-  static EdgeInsets lempty = const EdgeInsets.only(left: 1);
-
-  /// ```
   /// right: 1;
   /// ```
   static EdgeInsets rempty = const EdgeInsets.only(right: 1);
+
+  /// ```
+  /// left: 1;
+  /// ```
+  static EdgeInsets lempty = const EdgeInsets.only(left: 1);
 
   /// ```
   /// top: 1;
@@ -1255,7 +1255,7 @@ class TwSpacing {
   static EdgeInsets bempty = const EdgeInsets.only(bottom: 1);
 
   /// ```
-  /// all: 1
+  /// all: 1;
   /// ```
   static EdgeInsets aempty = const EdgeInsets.all(1);
 
@@ -1272,14 +1272,14 @@ class TwSpacing {
   static EdgeInsets yzero_5 = const EdgeInsets.symmetric(vertical: 2);
 
   /// ```
-  /// left: 2;
-  /// ```
-  static EdgeInsets lzero_5 = const EdgeInsets.only(left: 2);
-
-  /// ```
   /// right: 2;
   /// ```
   static EdgeInsets rzero_5 = const EdgeInsets.only(right: 2);
+
+  /// ```
+  /// left: 2;
+  /// ```
+  static EdgeInsets lzero_5 = const EdgeInsets.only(left: 2);
 
   /// ```
   /// top: 2;
@@ -1292,7 +1292,7 @@ class TwSpacing {
   static EdgeInsets bzero_5 = const EdgeInsets.only(bottom: 2);
 
   /// ```
-  /// all: 2
+  /// all: 2;
   /// ```
   static EdgeInsets azero_5 = const EdgeInsets.all(2);
 }
