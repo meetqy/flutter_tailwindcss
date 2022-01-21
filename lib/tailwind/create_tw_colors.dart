@@ -6,6 +6,12 @@ String hexToColor(String code) {
   return code.replaceAll('#', '0xff');
 }
 
+extension StringExtension on String {
+  String capitalize() {
+    return "${this[0].toUpperCase()}${substring(1)}";
+  }
+}
+
 void main() {
   String dir = join(dirname(Platform.script.path), 'colors.json');
   String saveDir =
@@ -24,7 +30,7 @@ void main() {
 
     String str = '\nstatic const int $primary = $color;\n';
     str +=
-        '/// The slate primary color and swatch.\n///\n/// ![](https://raw.githubusercontent.com/meetqy/flutter_tailwindcss/main/images/colors/$key.png);\n///\n';
+        '/// The slate primary color and swatch.\n///\n/// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/${key.toString().capitalize()}.png);\n///\n';
 
     str +=
         'static const MaterialColor $name =MaterialColor(_slatePrimaryValue, <int, Color>{\n';

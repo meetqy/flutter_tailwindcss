@@ -1,6 +1,6 @@
 # flutter_tailwindcss
 
-Experience using tailwind on the Flutter!
+Experience using tailwind on the Flutter.
 
 ## Introduction
 
@@ -30,8 +30,8 @@ dependencies:
 
 ### colors
 
-![](images/docs/colors.png)
+![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/docs/colors.png)
 
 ### spacing
 
-![](images/docs/spacing.png)
+![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/docs/spacing.png)

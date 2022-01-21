@@ -1,15 +1,19 @@
+## 0.0.3+1
+
+- image url change from github to gitee.
+
 ## 0.0.3
 
-- 添加 `TwSpacing`
-- 添加 shell 脚本，自动生成 core 并格式化代码
+- add `TwSpacing`
+- add shell script auto create core and format code.
 
 ## 0.0.2+1
 
-- readme 图片加载错误
+- fix: image load error in readme
 
 ## 0.0.2
 
-- 添加 `TwColor`
+- add `TwColor`
 
 ## 0.0.1
 
