@@ -3,13 +3,22 @@ import 'package:flutter_tailwindcss/core/tw_font/logic.dart';
 
 export 'package:flutter_tailwindcss/core/tw_font/logic.dart';
 
-/// https://tailwindcss.com/docs/font-family
 class TwText extends StatelessWidget {
   const TwText(this.text, {Key? key, required this.className})
       : super(key: key);
 
   final String text;
 
+  /// 类似于css中的classname
+  ///
+  /// 后面的属性如果与前面的属性冲突，以后面的为准.
+  ///
+  /// example:
+  ///
+  /// ```
+  /// className: [TwFont.mono, TwFont.2xl, TwFont.bold],
+  /// ```
+  ///
   final List<TwFont> className;
 
   TextStyle _getStyles() {

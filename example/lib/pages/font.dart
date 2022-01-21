@@ -20,33 +20,35 @@ class _FontPageState extends State<FontPage> {
           padding: const EdgeInsets.all(20),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-            children: const [
-              TwText(
+            children: [
+              const TwText(
                 '等宽字 1234567890 asdfghjkl ASDFGHJKL',
                 className: [TwFont.mono],
               ),
-
-              TwText(
+              const TwText(
                 '无衬线 1234567890 asdfghjkl ASDFGHJKL',
                 className: [TwFont.sans],
               ),
-
-              TwText(
+              const TwText(
                 '有衬线 1234567890 asdfghjkl ASDFGHJKL',
                 className: [TwFont.serif],
               ),
-
-              // const Text(
-              //   'THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG',
-              // ),
-              // Text(
-              //   '有无衬线字体对比 2011-11-11 11:11',
-              //   // style: Twfont.serif,
-              // ),
-              // Text(
-              //   '有无衬线字体对比 2011-12-12 00:00',
-              //   // style: Twfont.sans,
-              // ),
+              Container(
+                margin: const EdgeInsets.symmetric(vertical: 20),
+                child: const TwText('字体大小', className: [TwFont.base]),
+              ),
+              const TwText(
+                '1234567890 asdfghjkl ASDFGHJKL',
+                className: [TwFont.xs],
+              ),
+              const TwText(
+                '1234567890 asdfghjkl ASDFGHJKL',
+                className: [TwFont.sm],
+              ),
+              const TwText(
+                '1234567890 asdfghjkl ASDFGHJKL',
+                className: [TwFont.base],
+              ),
             ],
           ),
         ),
