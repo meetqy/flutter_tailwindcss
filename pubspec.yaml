@@ -1,6 +1,6 @@
 name: flutter_tailwindcss
 description: Experience using tailwind on the Flutter!
-version: 0.0.3
+version: 0.0.3+1
 homepage: https://github.com/meetqy/flutter_tailwindcss
 
 environment:
