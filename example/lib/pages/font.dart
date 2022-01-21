@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tailwindcss/core/tw_font.dart';
+import 'package:flutter_tailwindcss/flutter_tailwindcss.dart';
 
 class FontPage extends StatefulWidget {
   const FontPage({Key? key}) : super(key: key);
@@ -23,17 +23,17 @@ class _FontPageState extends State<FontPage> {
             children: const [
               TwText(
                 '等宽字 1234567890 asdfghjkl ASDFGHJKL',
-                styles: [TwFontType.mono],
+                className: [TwFont.mono],
               ),
 
               TwText(
                 '无衬线 1234567890 asdfghjkl ASDFGHJKL',
-                styles: [TwFontType.sans],
+                className: [TwFont.sans],
               ),
 
               TwText(
                 '有衬线 1234567890 asdfghjkl ASDFGHJKL',
-                styles: [TwFontType.serif],
+                className: [TwFont.serif],
               ),
 
               // const Text(

@@ -2,4 +2,4 @@ library flutter_tailwindcss;
 
 export './core/tw_colors.dart';
 export './core/tw_spacing.dart';
-export './core/tw_font.dart';
+export './core/tw_font/index.dart';
