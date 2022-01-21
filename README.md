@@ -8,7 +8,7 @@ Experience using tailwind on the Flutter!
 
 ```
 dependencies:
-  flutter_vant_kit: ^0.0.2
+  flutter_vant_kit: ^0.0.3
 ```
 
 ## Planing
@@ -16,9 +16,9 @@ dependencies:
 | doing      | name           | verison |
 | ---------- | -------------- | ------- |
 | 🚀 done    | `TwColor`      | `0.0.2` |
-| 👷 doing   | `Spacing`      | -       |
-| ⏳ planing | `FontSize`     | -       |
-| ⏳ planing | `FontWeight`   | -       |
+| 👷 done    | `Spacing`      | `0.0.3` |
+| ⏳ doing   | `FontSize`     | -       |
+| ⏳ doing   | `FontWeight`   | -       |
 | ⏳ planing | `BorderRadius` | -       |
 | ⏳ planing | `BorderWidth`  | -       |
 | ⏳ planing | `Divide`       | -       |
@@ -32,4 +32,6 @@ dependencies:
 
 ![](images/docs/colors.png)
 
-> Has the same color hint as the official library.
+### spacing
+
+![](images/docs/spacing.png)
