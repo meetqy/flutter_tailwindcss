@@ -1,4 +1,4 @@
-import 'package:example/pages/font.dart';
+import 'package:example/pages/font/index.dart';
 import 'package:example/pages/home.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_tailwindcss/flutter_tailwindcss.dart';
