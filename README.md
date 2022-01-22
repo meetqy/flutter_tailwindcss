@@ -16,9 +16,9 @@ dependencies:
 | doing      | name           | verison |
 | ---------- | -------------- | ------- |
 | 🚀 done    | `TwColor`      | `0.0.2` |
-| 👷 done    | `Spacing`      | `0.0.3` |
-| ⏳ doing   | `FontSize`     | -       |
-| ⏳ doing   | `FontWeight`   | -       |
+| 🚀 done    | `Spacing`      | `0.0.3` |
+| 👷 doing   | `FontSize`     | -       |
+| 👷 doing   | `FontWeight`   | -       |
 | ⏳ planing | `BorderRadius` | -       |
 | ⏳ planing | `BorderWidth`  | -       |
 | ⏳ planing | `Divide`       | -       |

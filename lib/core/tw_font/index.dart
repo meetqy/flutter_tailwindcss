@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tailwindcss/core/tw_font/logic.dart';
-
-export 'package:flutter_tailwindcss/core/tw_font/logic.dart';
+export 'font.dart';
 
 class TwText extends StatelessWidget {
   const TwText(this.text, {Key? key, required this.className})
@@ -19,13 +17,13 @@ class TwText extends StatelessWidget {
   /// className: [TwFont.mono, TwFont.2xl, TwFont.bold],
   /// ```
   ///
-  final List<TwFont> className;
+  final List<TextStyle> className;
 
   TextStyle _getStyles() {
     TextStyle _style = const TextStyle();
 
     for (var element in className) {
-      _style = _style.merge(element.style);
+      _style = _style.merge(element);
     }
 
     return _style;
