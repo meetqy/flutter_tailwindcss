@@ -1,11 +1,5 @@
 import 'package:flutter/material.dart';
 
-class TwConfig {
-  static double fontSizeBase = 16;
-
-  static ConstColors colors = ConstColors();
-}
-
 class ConstColors {
   /// The slate primary color and swatch.
   ///

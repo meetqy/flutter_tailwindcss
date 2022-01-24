@@ -20,20 +20,21 @@ void main() {
 
   String core = '';
   data.forEach((key, value) {
-    String primary = '_${key}PrimaryValue';
+    // String primary = '_${key}PrimaryValue';
     String name = key.toString();
     if (key == "red" || key == "blue" || key == "green") {
       name += "Tw";
     }
 
-    String color = hexToColor(value['500'].toString());
+    // String color = hexToColor(value['500'].toString());
 
-    String str = '\nstatic const int $primary = $color;\n';
+    // String str = '\nstatic const int $primary = $color;\n';
+    String str = '\n';
     str +=
         '/// The slate primary color and swatch.\n///\n/// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/${key.toString().capitalize()}.png);\n///\n';
 
     str +=
-        'static MaterialColor $name = MaterialColor($primary, TwConfig.colors.$name);\n';
+        'static MaterialColor $name = MaterialColor(TwConfig.colors.$name[500]!.value, TwConfig.colors.$name);\n';
 
     // str +=
     //     'static const MaterialColor $name =MaterialColor(_slatePrimaryValue, <int, Color>{\n';

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tailwindcss/core/default.dart';
+import 'package:flutter_tailwindcss/core/default/default.dart';
 
 /// FontSize
 class TwFontSize {
