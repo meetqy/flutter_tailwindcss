@@ -33,17 +33,20 @@ void main() {
         '/// The slate primary color and swatch.\n///\n/// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/${key.toString().capitalize()}.png);\n///\n';
 
     str +=
-        'static const MaterialColor $name =MaterialColor(_slatePrimaryValue, <int, Color>{\n';
-    str += '50: Color(${hexToColor(value["50"].toString())}),\n';
-    str += '100: Color(${hexToColor(value["100"].toString())}),\n';
-    str += '200: Color(${hexToColor(value["200"].toString())}),\n';
-    str += '300: Color(${hexToColor(value["300"].toString())}),\n';
-    str += '400: Color(${hexToColor(value["400"].toString())}),\n';
-    str += '500: Color($primary),\n';
-    str += '600: Color(${hexToColor(value["600"].toString())}),\n';
-    str += '700: Color(${hexToColor(value["700"].toString())}),\n';
-    str += '800: Color(${hexToColor(value["800"].toString())}),\n';
-    str += '900: Color(${hexToColor(value["900"].toString())}),\n});\n';
+        'static MaterialColor $name = MaterialColor($primary, TwConfig.colors.$name);\n';
+
+    // str +=
+    //     'static const MaterialColor $name =MaterialColor(_slatePrimaryValue, <int, Color>{\n';
+    // str += '50: Color(${hexToColor(value["50"].toString())}),\n';
+    // str += '100: Color(${hexToColor(value["100"].toString())}),\n';
+    // str += '200: Color(${hexToColor(value["200"].toString())}),\n';
+    // str += '300: Color(${hexToColor(value["300"].toString())}),\n';
+    // str += '400: Color(${hexToColor(value["400"].toString())}),\n';
+    // str += '500: Color($primary),\n';
+    // str += '600: Color(${hexToColor(value["600"].toString())}),\n';
+    // str += '700: Color(${hexToColor(value["700"].toString())}),\n';
+    // str += '800: Color(${hexToColor(value["800"].toString())}),\n';
+    // str += '900: Color(${hexToColor(value["900"].toString())}),\n});\n';
     core += str;
   });
 

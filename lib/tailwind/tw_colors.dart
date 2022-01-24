@@ -1,17 +1,15 @@
-import 'package:flutter/material.dart';
+import "package:flutter/material.dart";
 
-class TwConfig {
-  static double fontSizeBase = 16;
+class TwColor extends ColorSwatch<int> {
+  const TwColor(int primary, Map<int, Color> swatch) : super(primary, swatch);
 
-  static ConstColors colors = ConstColors();
-}
+  static const int _slatePrimaryValue = 0xff64748b;
 
-class ConstColors {
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Slate.png);
   ///
-  Map<int, Color> slate = const {
+  static const Map<int, Color> slate = {
     50: Color(0xfff8fafc),
     100: Color(0xfff1f5f9),
     200: Color(0xffe2e8f0),
@@ -24,11 +22,13 @@ class ConstColors {
     900: Color(0xff0f172a),
   };
 
+  static const int _grayPrimaryValue = 0xff6b7280;
+
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Gray.png);
   ///
-  Map<int, Color> gray = const {
+  static const Map<int, Color> gray = {
     50: Color(0xfff9fafb),
     100: Color(0xfff3f4f6),
     200: Color(0xffe5e7eb),
@@ -41,11 +41,13 @@ class ConstColors {
     900: Color(0xff111827),
   };
 
+  static const int _zincPrimaryValue = 0xff71717a;
+
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Zinc.png);
   ///
-  Map<int, Color> zinc = const {
+  static const Map<int, Color> zinc = {
     50: Color(0xfffafafa),
     100: Color(0xfff4f4f5),
     200: Color(0xffe4e4e7),
@@ -58,11 +60,13 @@ class ConstColors {
     900: Color(0xff18181b),
   };
 
+  static const int _neutralPrimaryValue = 0xff737373;
+
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Neutral.png);
   ///
-  Map<int, Color> neutral = const {
+  static const Map<int, Color> neutral = {
     50: Color(0xfffafafa),
     100: Color(0xfff5f5f5),
     200: Color(0xffe5e5e5),
@@ -75,11 +79,13 @@ class ConstColors {
     900: Color(0xff171717),
   };
 
+  static const int _stonePrimaryValue = 0xff78716c;
+
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Stone.png);
   ///
-  Map<int, Color> stone = const {
+  static const Map<int, Color> stone = {
     50: Color(0xfffafaf9),
     100: Color(0xfff5f5f4),
     200: Color(0xffe7e5e4),
@@ -92,11 +98,13 @@ class ConstColors {
     900: Color(0xff1c1917),
   };
 
+  static const int _redPrimaryValue = 0xffef4444;
+
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Red.png);
   ///
-  Map<int, Color> redTw = const {
+  static const Map<int, Color> redTw = {
     50: Color(0xfffef2f2),
     100: Color(0xfffee2e2),
     200: Color(0xfffecaca),
@@ -109,11 +117,13 @@ class ConstColors {
     900: Color(0xff7f1d1d),
   };
 
+  static const int _orangePrimaryValue = 0xfff97316;
+
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Orange.png);
   ///
-  Map<int, Color> orange = const {
+  static const Map<int, Color> orange = {
     50: Color(0xfffff7ed),
     100: Color(0xffffedd5),
     200: Color(0xfffed7aa),
@@ -126,11 +136,13 @@ class ConstColors {
     900: Color(0xff7c2d12),
   };
 
+  static const int _amberPrimaryValue = 0xfff59e0b;
+
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Amber.png);
   ///
-  Map<int, Color> amber = const {
+  static const Map<int, Color> amber = {
     50: Color(0xfffffbeb),
     100: Color(0xfffef3c7),
     200: Color(0xfffde68a),
@@ -143,11 +155,13 @@ class ConstColors {
     900: Color(0xff78350f),
   };
 
+  static const int _yellowPrimaryValue = 0xffeab308;
+
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Yellow.png);
   ///
-  Map<int, Color> yellow = const {
+  static const Map<int, Color> yellow = {
     50: Color(0xfffefce8),
     100: Color(0xfffef9c3),
     200: Color(0xfffef08a),
@@ -160,11 +174,13 @@ class ConstColors {
     900: Color(0xff713f12),
   };
 
+  static const int _limePrimaryValue = 0xff84cc16;
+
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Lime.png);
   ///
-  Map<int, Color> lime = {
+  static const Map<int, Color> lime = {
     50: Color(0xfff7fee7),
     100: Color(0xffecfccb),
     200: Color(0xffd9f99d),
@@ -177,11 +193,13 @@ class ConstColors {
     900: Color(0xff365314),
   };
 
+  static const int _greenPrimaryValue = 0xff22c55e;
+
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Green.png);
   ///
-  Map<int, Color> greenTw = const {
+  static const Map<int, Color> greenTw = {
     50: Color(0xfff0fdf4),
     100: Color(0xffdcfce7),
     200: Color(0xffbbf7d0),
@@ -194,11 +212,13 @@ class ConstColors {
     900: Color(0xff14532d),
   };
 
+  static const int _emeraldPrimaryValue = 0xff10b981;
+
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Emerald.png);
   ///
-  Map<int, Color> emerald = const {
+  static const Map<int, Color> emerald = {
     50: Color(0xffecfdf5),
     100: Color(0xffd1fae5),
     200: Color(0xffa7f3d0),
@@ -211,11 +231,13 @@ class ConstColors {
     900: Color(0xff064e3b),
   };
 
+  static const int _tealPrimaryValue = 0xff14b8a6;
+
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Teal.png);
   ///
-  Map<int, Color> teal = const {
+  static const Map<int, Color> teal = {
     50: Color(0xfff0fdfa),
     100: Color(0xffccfbf1),
     200: Color(0xff99f6e4),
@@ -228,11 +250,13 @@ class ConstColors {
     900: Color(0xff134e4a),
   };
 
+  static const int _cyanPrimaryValue = 0xff06b6d4;
+
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Cyan.png);
   ///
-  Map<int, Color> cyan = const {
+  static const Map<int, Color> cyan = {
     50: Color(0xffecfeff),
     100: Color(0xffcffafe),
     200: Color(0xffa5f3fc),
@@ -245,11 +269,13 @@ class ConstColors {
     900: Color(0xff164e63),
   };
 
+  static const int _skyPrimaryValue = 0xff0ea5e9;
+
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Sky.png);
   ///
-  Map<int, Color> sky = const {
+  static const Map<int, Color> sky = {
     50: Color(0xfff0f9ff),
     100: Color(0xffe0f2fe),
     200: Color(0xffbae6fd),
@@ -262,11 +288,13 @@ class ConstColors {
     900: Color(0xff0c4a6e),
   };
 
+  static const int _bluePrimaryValue = 0xff3b82f6;
+
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Blue.png);
   ///
-  Map<int, Color> blueTw = const {
+  static const Map<int, Color> blueTw = {
     50: Color(0xffeff6ff),
     100: Color(0xffdbeafe),
     200: Color(0xffbfdbfe),
@@ -279,11 +307,13 @@ class ConstColors {
     900: Color(0xff1e3a8a),
   };
 
+  static const int _indigoPrimaryValue = 0xff6366f1;
+
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Indigo.png);
   ///
-  Map<int, Color> indigo = const {
+  static const Map<int, Color> indigo = {
     50: Color(0xffeef2ff),
     100: Color(0xffe0e7ff),
     200: Color(0xffc7d2fe),
@@ -296,11 +326,13 @@ class ConstColors {
     900: Color(0xff312e81),
   };
 
+  static const int _violetPrimaryValue = 0xff8b5cf6;
+
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Violet.png);
   ///
-  Map<int, Color> violet = const {
+  static const Map<int, Color> violet = {
     50: Color(0xfff5f3ff),
     100: Color(0xffede9fe),
     200: Color(0xffddd6fe),
@@ -313,11 +345,13 @@ class ConstColors {
     900: Color(0xff4c1d95),
   };
 
+  static const int _purplePrimaryValue = 0xffa855f7;
+
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Purple.png);
   ///
-  Map<int, Color> purple = const {
+  static const Map<int, Color> purple = {
     50: Color(0xfffaf5ff),
     100: Color(0xfff3e8ff),
     200: Color(0xffe9d5ff),
@@ -330,11 +364,13 @@ class ConstColors {
     900: Color(0xff581c87),
   };
 
+  static const int _fuchsiaPrimaryValue = 0xffd946ef;
+
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Fuchsia.png);
   ///
-  Map<int, Color> fuchsia = const {
+  static const Map<int, Color> fuchsia = {
     50: Color(0xfffdf4ff),
     100: Color(0xfffae8ff),
     200: Color(0xfff5d0fe),
@@ -347,11 +383,13 @@ class ConstColors {
     900: Color(0xff701a75),
   };
 
+  static const int _pinkPrimaryValue = 0xffec4899;
+
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Pink.png);
   ///
-  Map<int, Color> pink = const {
+  static const Map<int, Color> pink = {
     50: Color(0xfffdf2f8),
     100: Color(0xfffce7f3),
     200: Color(0xfffbcfe8),
@@ -364,11 +402,13 @@ class ConstColors {
     900: Color(0xff831843),
   };
 
+  static const int _rosePrimaryValue = 0xfff43f5e;
+
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Rose.png);
   ///
-  Map<int, Color> rose = const {
+  static const Map<int, Color> rose = {
     50: Color(0xfffff1f2),
     100: Color(0xffffe4e6),
     200: Color(0xfffecdd3),
