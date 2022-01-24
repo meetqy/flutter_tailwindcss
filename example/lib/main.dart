@@ -1,7 +1,6 @@
 import 'package:example/pages/font/index.dart';
 import 'package:example/pages/home.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_tailwindcss/flutter_tailwindcss.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +15,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: TwColor.amber,
+        backgroundColor: Colors.white,
+        scaffoldBackgroundColor: Colors.white,
       ),
       initialRoute: '/font',
       routes: {

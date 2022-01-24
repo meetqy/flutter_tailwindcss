@@ -6,6 +6,12 @@ export 'package:flutter_tailwindcss/core/tw_font/weight.dart';
 export 'package:flutter_tailwindcss/core/tw_font/family.dart';
 
 class TwFont {
+  TwFont._internal();
+
+  factory TwFont() => _instance;
+
+  static late final TwFont _instance = TwFont._internal();
+
   /// Font Style
   ///
   /// https://tailwindcss.com/docs/font-style

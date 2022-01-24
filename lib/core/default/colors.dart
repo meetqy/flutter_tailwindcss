@@ -158,7 +158,7 @@ class ConstColors {
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Lime.png);
   ///
-  Map<int, Color> lime = {
+  Map<int, Color> lime = const {
     50: Color(0xfff7fee7),
     100: Color(0xffecfccb),
     200: Color(0xffd9f99d),

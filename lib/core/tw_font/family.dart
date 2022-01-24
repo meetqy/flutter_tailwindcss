@@ -9,14 +9,6 @@ extension TwFontFamily on TwFont {
   ///
   /// https://tailwindcss.com/docs/font-family
   ///
-  /// Monospaced 等宽字体
-  TextStyle get mono =>
-      const TextStyle(fontFeatures: [FontFeature.oldstyleFigures()]);
-
-  /// Font Family
-  ///
-  /// https://tailwindcss.com/docs/font-family
-  ///
   /// sans 无衬线
   TextStyle get sans => GoogleFonts.notoSans();
 
@@ -25,5 +17,12 @@ extension TwFontFamily on TwFont {
   /// https://tailwindcss.com/docs/font-family
   ///
   /// serif 衬线
-  TextStyle get serif => GoogleFonts.notoSans();
+  TextStyle get serif => GoogleFonts.notoSerif();
+
+  /// Font Family
+  ///
+  /// https://tailwindcss.com/docs/font-family
+  ///
+  /// Monospaced 等宽字体
+  TextStyle get mono => GoogleFonts.ptMono();
 }
