@@ -1,160 +1,161 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_tailwindcss/core/default/default.dart';
+import 'package:flutter_tailwindcss/flutter_tailwindcss.dart';
 
-class TwFontColor {
+extension TwFontColor on TwFont {
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Slate.png);
   ///
-  TwMaterialColor slate =
+  TwMaterialColor get slate =>
       TwMaterialColor(TwConfig.colors.slate[500]!, TwConfig.colors.slate);
 
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Gray.png);
   ///
-  TwMaterialColor gray =
+  TwMaterialColor get gray =>
       TwMaterialColor(TwConfig.colors.gray[500]!, TwConfig.colors.gray);
 
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Zinc.png);
   ///
-  TwMaterialColor zinc =
+  TwMaterialColor get zinc =>
       TwMaterialColor(TwConfig.colors.zinc[500]!, TwConfig.colors.zinc);
 
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Neutral.png);
   ///
-  TwMaterialColor neutral =
+  TwMaterialColor get neutral =>
       TwMaterialColor(TwConfig.colors.neutral[500]!, TwConfig.colors.neutral);
 
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Stone.png);
   ///
-  TwMaterialColor stone =
+  TwMaterialColor get stone =>
       TwMaterialColor(TwConfig.colors.stone[500]!, TwConfig.colors.stone);
 
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Red.png);
   ///
-  TwMaterialColor redTw =
+  TwMaterialColor get redTw =>
       TwMaterialColor(TwConfig.colors.redTw[500]!, TwConfig.colors.redTw);
 
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Orange.png);
   ///
-  TwMaterialColor orange =
+  TwMaterialColor get orange =>
       TwMaterialColor(TwConfig.colors.orange[500]!, TwConfig.colors.orange);
 
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Amber.png);
   ///
-  TwMaterialColor amber =
+  TwMaterialColor get amber =>
       TwMaterialColor(TwConfig.colors.amber[500]!, TwConfig.colors.amber);
 
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Yellow.png);
   ///
-  TwMaterialColor yellow =
+  TwMaterialColor get yellow =>
       TwMaterialColor(TwConfig.colors.yellow[500]!, TwConfig.colors.yellow);
 
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Lime.png);
   ///
-  TwMaterialColor lime =
+  TwMaterialColor get lime =>
       TwMaterialColor(TwConfig.colors.lime[500]!, TwConfig.colors.lime);
 
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Green.png);
   ///
-  TwMaterialColor greenTw =
+  TwMaterialColor get greenTw =>
       TwMaterialColor(TwConfig.colors.greenTw[500]!, TwConfig.colors.greenTw);
 
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Emerald.png);
   ///
-  TwMaterialColor emerald =
+  TwMaterialColor get emerald =>
       TwMaterialColor(TwConfig.colors.emerald[500]!, TwConfig.colors.emerald);
 
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Teal.png);
   ///
-  TwMaterialColor teal =
+  TwMaterialColor get teal =>
       TwMaterialColor(TwConfig.colors.teal[500]!, TwConfig.colors.teal);
 
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Cyan.png);
   ///
-  TwMaterialColor cyan =
+  TwMaterialColor get cyan =>
       TwMaterialColor(TwConfig.colors.cyan[500]!, TwConfig.colors.cyan);
 
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Sky.png);
   ///
-  TwMaterialColor sky =
+  TwMaterialColor get sky =>
       TwMaterialColor(TwConfig.colors.sky[500]!, TwConfig.colors.sky);
 
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Blue.png);
   ///
-  TwMaterialColor blueTw =
+  TwMaterialColor get blueTw =>
       TwMaterialColor(TwConfig.colors.blueTw[500]!, TwConfig.colors.blueTw);
 
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Indigo.png);
   ///
-  TwMaterialColor indigo =
+  TwMaterialColor get indigo =>
       TwMaterialColor(TwConfig.colors.indigo[500]!, TwConfig.colors.indigo);
 
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Violet.png);
   ///
-  TwMaterialColor violet =
+  TwMaterialColor get violet =>
       TwMaterialColor(TwConfig.colors.violet[500]!, TwConfig.colors.violet);
 
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Purple.png);
   ///
-  TwMaterialColor purple =
+  TwMaterialColor get purple =>
       TwMaterialColor(TwConfig.colors.purple[500]!, TwConfig.colors.purple);
 
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Fuchsia.png);
   ///
-  TwMaterialColor fuchsia =
+  TwMaterialColor get fuchsia =>
       TwMaterialColor(TwConfig.colors.fuchsia[500]!, TwConfig.colors.fuchsia);
 
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Pink.png);
   ///
-  TwMaterialColor pink =
+  TwMaterialColor get pink =>
       TwMaterialColor(TwConfig.colors.pink[500]!, TwConfig.colors.pink);
 
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Rose.png);
   ///
-  TwMaterialColor rose =
+  TwMaterialColor get rose =>
       TwMaterialColor(TwConfig.colors.rose[500]!, TwConfig.colors.rose);
 }
 

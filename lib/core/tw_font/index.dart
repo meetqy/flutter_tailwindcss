@@ -1,39 +1,30 @@
 import 'package:flutter/material.dart';
-export 'font.dart';
+import 'package:flutter_tailwindcss/core/tw_font/size.dart';
 
-class TwText extends StatelessWidget {
-  const TwText(this.text, {Key? key, required this.className})
-      : super(key: key);
+export 'package:flutter_tailwindcss/core/tw_font/color.dart';
+export 'package:flutter_tailwindcss/core/tw_font/weight.dart';
+export 'package:flutter_tailwindcss/core/tw_font/family.dart';
 
-  final String text;
-
-  /// 类似于css中的classname
+class TwFont {
+  /// Font Style
   ///
-  /// 后面的属性如果与前面的属性冲突，以后面的为准.
+  /// https://tailwindcss.com/docs/font-style
+  TextStyle get italic => const TextStyle(fontStyle: FontStyle.italic);
+
+  /// Font Style
   ///
-  /// example:
+  /// https://tailwindcss.com/docs/font-style
+  TextStyle get notItalic => const TextStyle(fontStyle: FontStyle.normal);
+
+  /// Text Overflow
   ///
-  /// ```
-  /// className: [TwFont.mono, TwFont.2xl, TwFont.bold],
-  /// ```
+  /// https://tailwindcss.com/docs/text-overflow
+  TextStyle get ellipsis => const TextStyle(overflow: TextOverflow.ellipsis);
+
+  /// Text Overflow
   ///
-  final List<TextStyle> className;
+  /// https://tailwindcss.com/docs/text-overflow
+  static TextStyle get clip => const TextStyle(overflow: TextOverflow.clip);
 
-  TextStyle _getStyles() {
-    TextStyle _style = const TextStyle();
-
-    for (var element in className) {
-      _style = _style.merge(element);
-    }
-
-    return _style;
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Text(
-      text,
-      style: _getStyles(),
-    );
-  }
+  TwFontSize get text => TwFontSize();
 }

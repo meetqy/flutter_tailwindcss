@@ -22,9 +22,16 @@ class FontFamily extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       TwText('font-sans', className: [
-                        TwFont.sans,
-                        TwFont.text.sm,
-                        TwFont.color.slate
+                        TwFont().sans,
+                        TwFont().text.sm,
+                        TwFont().slate.shade500,
+                        TwFont().medium
+                      ]),
+                      TwText(str, className: [
+                        TwFont().sans,
+                        TwFont().text.lg,
+                        TwFont().medium,
+                        TwFont().slate.shade900
                       ])
                     ],
                   ),
