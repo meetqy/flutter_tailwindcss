@@ -20,7 +20,13 @@ class FontFamily extends StatelessWidget {
                   padding: TwSpacing.a8,
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [],
+                    children: [
+                      TwText('font-sans', className: [
+                        TwFont.sans,
+                        TwFont.text.sm,
+                        TwFont.color.slate
+                      ])
+                    ],
                   ),
                 ),
               ),

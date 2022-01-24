@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_tailwindcss/core/tw_font/font_color.dart';
 import 'package:flutter_tailwindcss/core/tw_font/font_size.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -53,4 +54,7 @@ class TwFont {
   ///
   /// https://tailwindcss.com/docs/font-size
   static TwFontSize get text => TwFontSize();
+
+  /// Font Color
+  static TwFontColor get color => TwFontColor();
 }

@@ -1,35 +1,86 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_tailwindcss/core/tw_colors.dart';
 
-class FontColor {
+class TwFontColor {
+  // /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Slate.png);
+  // TextStyle get slate => handleColor(TwColor.slate);
+
+  /// The slate primary color and this.
+  ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Slate.png);
-  TextStyle get slate => handleColor(TwColor.slate);
+  ///
+  TwMaterialColor get slate =>
+      const TwMaterialColor(Color(0xff64748b), <int, Color>{
+        50: Color(0xfff8fafc),
+        100: Color(0xfff1f5f9),
+        200: Color(0xffe2e8f0),
+        300: Color(0xffcbd5e1),
+        400: Color(0xff94a3b8),
+        500: Color(0xff64748b),
+        600: Color(0xff475569),
+        700: Color(0xff334155),
+        800: Color(0xff1e293b),
+        900: Color(0xff0f172a),
+      });
+}
 
-  /// /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Gray.png);
-  TextStyle get gray => handleColor(TwColor.gray);
+class TwColorSwatch<T> extends TextStyle {
+  const TwColorSwatch(this._primary, this._swatch) : super(color: _primary);
 
-  /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Zinc.png);
-  TextStyle get zinc => handleColor(TwColor.zinc);
-  TextStyle get neutral => handleColor(TwColor.neutral);
-  TextStyle get stone => handleColor(TwColor.stone);
-  TextStyle get redTw => handleColor(TwColor.redTw);
-  TextStyle get orange => handleColor(TwColor.orange);
-  TextStyle get amber => handleColor(TwColor.amber);
-  TextStyle get yellow => handleColor(TwColor.yellow);
-  TextStyle get lime => handleColor(TwColor.lime);
-  TextStyle get greenTw => handleColor(TwColor.greenTw);
-  TextStyle get emerald => handleColor(TwColor.emerald);
-  TextStyle get teal => handleColor(TwColor.teal);
-  TextStyle get cyan => handleColor(TwColor.cyan);
-  TextStyle get sky => handleColor(TwColor.sky);
-  TextStyle get blueTw => handleColor(TwColor.blueTw);
-  TextStyle get indigo => handleColor(TwColor.indigo);
-  TextStyle get violet => handleColor(TwColor.violet);
-  TextStyle get purple => handleColor(TwColor.purple);
-  TextStyle get pink => handleColor(TwColor.pink);
-  TextStyle get rose => handleColor(TwColor.rose);
+  final Color _primary;
 
-  TextStyle handleColor(Color color) {
-    return TextStyle(color: color);
+  TextStyle get value => TextStyle(color: _primary);
+
+  @protected
+  final Map<T, Color> _swatch;
+
+  /// 重写 [] 操作符
+  TextStyle? operator [](T index) => TextStyle(color: _swatch[index]);
+
+  @override
+  bool operator ==(Object other) {
+    if (identical(this, other)) return true;
+    if (other.runtimeType != runtimeType) return false;
+    return super == other &&
+        other is TwColorSwatch<T> &&
+        mapEquals<T, Color>(other._swatch, _swatch);
   }
+
+  @override
+  int get hashCode => hashValues(runtimeType, value, _swatch);
+}
+
+class TwMaterialColor extends TwColorSwatch<int> {
+  const TwMaterialColor(Color primary, Map<int, Color> _swatch)
+      : super(primary, _swatch);
+
+  /// The lightest shade.
+  TextStyle get shade50 => this[50]!;
+
+  /// The second lightest shade.
+  TextStyle get shade100 => this[100]!;
+
+  /// The third lightest shade.
+  TextStyle get shade200 => this[200]!;
+
+  /// The fourth lightest shade.
+  TextStyle get shade300 => this[300]!;
+
+  /// The fifth lightest shade.
+  TextStyle get shade400 => this[400]!;
+
+  /// The default shade.
+  TextStyle get shade500 => this[500]!;
+
+  /// The fourth darkest shade.
+  TextStyle get shade600 => this[600]!;
+
+  /// The third darkest shade.
+  TextStyle get shade700 => this[700]!;
+
+  /// The second darkest shade.
+  TextStyle get shade800 => this[800]!;
+
+  /// The darkest shade.
+  TextStyle get shade900 => this[900]!;
 }
