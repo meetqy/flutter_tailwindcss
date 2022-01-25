@@ -1,72 +1,117 @@
+import 'package:example/pages/tabview_temp.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_tailwindcss/flutter_tailwindcss.dart';
+import 'package:flutter_tailwindcss/core/tw_font/template.dart';
+import 'package:flutter_tailwindcss/core/tw_spacing.dart';
+
+String str = 'Utilities for controlling the font size of an element.';
+String strZh = '用来控制元素字体大小的功能类。';
+
+String code = '''TwText(
+    'Utilities for controlling the font size of an element.',
+    className: [TwFont().text.base, TwFont().medium, TwFont().slate.shade900],
+);''';
 
 class FontSize extends StatelessWidget {
   const FontSize({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    String fontSizeStr = '0123 asd ASD 你好呀，萨莉亚！';
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Container(
-          margin: const EdgeInsets.symmetric(vertical: 20),
-          child: TwText('字体大小', className: [TwFont().text.base]),
+    TwFont twFont = TwFont();
+    return TabViewTemp(children: [
+      Container(
+        margin: const EdgeInsets.only(top: 20),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            title('Setting the font size'),
+            desciption(
+                '''Control the font size of an element using the `Twfont.text.{size}` utilities.'''),
+            cardDemo(children: [
+              cardDemoModule(margin: TwSpacing.b8, children: [
+                cardDemoTitle('TwFont().text.sm'),
+                TwText(
+                  str,
+                  className: [
+                    twFont.text.sm,
+                    twFont.medium,
+                    twFont.slate.shade900
+                  ],
+                ),
+                TwText(strZh, className: [
+                  twFont.text.sm,
+                  twFont.medium,
+                  twFont.slate.shade900
+                ]),
+              ]),
+              cardDemoModule(margin: TwSpacing.b8, children: [
+                cardDemoTitle('TwFont().text.base'),
+                TwText(
+                  str,
+                  className: [
+                    twFont.text.base,
+                    twFont.medium,
+                    twFont.slate.shade900
+                  ],
+                ),
+                TwText(strZh, className: [
+                  twFont.text.base,
+                  twFont.medium,
+                  twFont.slate.shade900
+                ]),
+              ]),
+              cardDemoModule(margin: TwSpacing.b8, children: [
+                cardDemoTitle('TwFont().text.lg'),
+                TwText(
+                  str,
+                  className: [
+                    twFont.text.lg,
+                    twFont.medium,
+                    twFont.slate.shade900
+                  ],
+                ),
+                TwText(strZh, className: [
+                  twFont.text.lg,
+                  twFont.medium,
+                  twFont.slate.shade900
+                ]),
+              ]),
+              cardDemoModule(margin: TwSpacing.b8, children: [
+                cardDemoTitle('TwFont().text.xl'),
+                TwText(
+                  str,
+                  className: [
+                    twFont.text.xl,
+                    twFont.medium,
+                    twFont.slate.shade900
+                  ],
+                ),
+                TwText(strZh, className: [
+                  twFont.text.xl,
+                  twFont.medium,
+                  twFont.slate.shade900
+                ]),
+              ]),
+              cardDemoModule(children: [
+                cardDemoTitle('TwFont().text.xl2'),
+                TwText(
+                  str,
+                  className: [
+                    twFont.text.xl2,
+                    twFont.medium,
+                    twFont.slate.shade900
+                  ],
+                ),
+                TwText(strZh, className: [
+                  twFont.text.xl2,
+                  twFont.medium,
+                  twFont.slate.shade900
+                ]),
+              ])
+            ]),
+          ],
         ),
-        TwText(
-          'xs $fontSizeStr',
-          className: [TwFont().text.xs],
-        ),
-        TwText(
-          'sm $fontSizeStr',
-          className: [TwFont().text.sm],
-        ),
-        TwText(
-          'base $fontSizeStr',
-          className: [TwFont().text.base],
-        ),
-        TwText(
-          'lg $fontSizeStr',
-          className: [TwFont().text.lg],
-        ),
-        TwText(
-          'xl $fontSizeStr',
-          className: [TwFont().text.xl],
-        ),
-        TwText(
-          'xl2 $fontSizeStr',
-          className: [TwFont().text.xl2, TwFont().ellipsis],
-        ),
-        TwText(
-          'xl3 $fontSizeStr',
-          className: [TwFont().text.xl3, TwFont().ellipsis],
-        ),
-        TwText(
-          'xl4 $fontSizeStr',
-          className: [TwFont().text.xl4, TwFont().ellipsis],
-        ),
-        TwText(
-          'xl5 $fontSizeStr',
-          className: [TwFont().text.xl5, TwFont().ellipsis],
-        ),
-        TwText(
-          'xl6 $fontSizeStr',
-          className: [TwFont().text.xl6, TwFont().ellipsis],
-        ),
-        TwText(
-          'xl7 $fontSizeStr',
-          className: [TwFont().text.xl7, TwFont().ellipsis],
-        ),
-        TwText(
-          'xl8 $fontSizeStr',
-          className: [TwFont().text.xl8, TwFont().ellipsis],
-        ),
-        TwText(
-          'xl9 $fontSizeStr',
-          className: [TwFont().text.xl9, TwFont().ellipsis],
-        ),
-      ],
-    );
+      ),
+      cardDemoCode(context, code)
+    ]);
   }
 }

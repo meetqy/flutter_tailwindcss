@@ -1,4 +1,5 @@
 import 'package:example/pages/font/family.dart';
+import 'package:example/pages/font/font_size.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_tailwindcss/core/tw_font/template.dart';
 
@@ -28,10 +29,7 @@ class _FontPageState extends State<FontPage> {
           ),
         ),
         body: const TabBarView(
-          children: [
-            FontFamily(),
-            Icon(Icons.ac_unit),
-          ],
+          children: [FontFamily(), FontSize()],
         ),
       ),
     );

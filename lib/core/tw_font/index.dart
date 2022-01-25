@@ -21,7 +21,7 @@ class TwFont {
   /// Text Overflow
   ///
   /// https://tailwindcss.com/docs/text-overflow
-  static TextStyle get clip => const TextStyle(overflow: TextOverflow.clip);
+  TextStyle get clip => const TextStyle(overflow: TextOverflow.clip);
 
   TwFontSize get text => TwFontSize();
 }
