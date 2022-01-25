@@ -25,7 +25,7 @@ class FontSize extends StatelessWidget {
           children: [
             title('Setting the font size'),
             desciption(
-                '''Control the font size of an element using the `Twfont.text.{size}` utilities.'''),
+                '''Control the font size of an element using the `TwFont.text.{size}` utilities.'''),
             cardDemo(children: [
               cardDemoModule(margin: TwSpacing.b8, children: [
                 cardDemoTitle('TwFont().text.sm'),

@@ -1,6 +1,7 @@
 import 'package:example/pages/font/family.dart';
 import 'package:example/pages/font/font_size.dart';
 import 'package:example/pages/font/style.dart';
+import 'package:example/pages/font/weight.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_tailwindcss/core/tw_font/template.dart';
 
@@ -16,6 +17,7 @@ class _FontPageState extends State<FontPage> {
     Tab(text: "Font Family"),
     Tab(text: "Font Size"),
     Tab(text: "Font Style"),
+    Tab(text: "Font Weight"),
   ];
 
   @override
@@ -29,11 +31,12 @@ class _FontPageState extends State<FontPage> {
             className: [],
           ),
           bottom: TabBar(
+            isScrollable: true,
             tabs: tabs,
           ),
         ),
         body: const TabBarView(
-          children: [FontFamily(), FontSize(), FontStyle()],
+          children: [FontFamily(), FontSize(), FontStyle(), FontWeight()],
         ),
       ),
     );
