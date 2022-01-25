@@ -1,6 +1,6 @@
 # flutter_tailwindcss
 
-Experience using tailwind on the Flutter.
+Experience tailwind writing flutter patterns.
 
 ## Introduction
 
