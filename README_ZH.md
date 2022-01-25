@@ -1,19 +1,19 @@
 # flutter_tailwindcss
 
-Experience using tailwind on the Flutter.
+体验用 tailwind 的方式去写 flutter 样式
 
-## Introduction
+## 介绍
 
 [中文](./README_ZH.md) | [English](./README.md)
 
-### How to use
+### 如何使用
 
 ```
 dependencies:
-  flutter_vant_kit: ^0.0.4
+  flutter_vant_kit: ^0.0.3
 ```
 
-## Planing
+## 进度
 
 | doing      | name           | verison |
 | ---------- | -------------- | ------- |
@@ -26,9 +26,7 @@ dependencies:
 | ⏳ planing | `Divide`       | -       |
 | ⏳ planing | `Shadow`       | -       |
 
-> I think so much for the moment, and I will modify it according to the actual situation later.
-
-## Example
+## 实例
 
 ### colors
 
@@ -40,9 +38,9 @@ dependencies:
 
 ### TwText
 
-'TwText' is used in combination with 'TwFont'. TwText is the equivalent of Text in flutter but with an extra 'className' parameter.
+`TwText` 和 `TwFont` 结合使用，TwText 相当于 flutter 中的 Text 只不过多了一个`className`参数。
 
-** Look at the difference with 'tailwind' **
+**看下和`tailwind`的差异**
 
 ![](./images/docs/font.png)
 
@@ -66,8 +64,8 @@ TwText(
 ])
 ```
 
-> Because TwFont is a class, you don't need to install plug-ins to do this
+> 因为 TwFont 是一个类，所以无需安装插件，也可做到智能提示
 
-## Demo in the project
+## 项目中的 demo
 
 ![](./images/docs/demo1.png)

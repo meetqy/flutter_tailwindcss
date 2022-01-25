@@ -1,3 +1,9 @@
+## 0.0.4
+
+- add example
+- add TwText widget
+- create style by className
+
 ## 0.0.3+1
 
 - image url change from github to gitee.
