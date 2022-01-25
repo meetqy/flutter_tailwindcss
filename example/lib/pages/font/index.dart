@@ -1,11 +1,6 @@
+import 'package:example/code_highlighter.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_highlight/flutter_highlight.dart';
-import 'package:flutter_highlight/themes/darcula.dart';
-import 'package:flutter_highlight/themes/dark.dart';
-import 'package:flutter_highlight/themes/github-gist.dart';
-import 'package:flutter_highlight/themes/github.dart';
-import 'package:flutter_highlight/themes/gradient-dark.dart';
-import 'package:flutter_highlight/themes/vs.dart';
+import 'package:flutter_tailwindcss/core/tw_font/size.dart';
 import 'package:flutter_tailwindcss/flutter_tailwindcss.dart';
 
 class FontPage extends StatefulWidget {
@@ -19,8 +14,23 @@ class _FontPageState extends State<FontPage> {
   String str = 'Utilities for controlling the font family of an element.';
   String strZh = '控制元素字体序列的功能类。';
 
+  String code = '''TwText(
+  'Setting the font family',
+  className: [
+    TwFont().text.lg,
+    TwFont().semibold,
+    TwFont().slate.shade900,
+    TwFont().serif
+  ],
+);''';
+
   @override
   Widget build(BuildContext context) {
+    final SyntaxHighlighterStyle style =
+        Theme.of(context).brightness == Brightness.dark
+            ? SyntaxHighlighterStyle.darkThemeStyle()
+            : SyntaxHighlighterStyle.lightThemeStyle();
+
     return Scaffold(
       appBar: AppBar(
         title: const Text("Typography"),
@@ -160,9 +170,26 @@ class _FontPageState extends State<FontPage> {
                     ],
                   ),
                 ),
-                Card(
-                  child: Row(
-                    children: [],
+                Container(
+                  margin: const EdgeInsets.only(top: 8),
+                  child: Card(
+                    color: TwColor.slate.shade50,
+                    child: Padding(
+                      padding: const EdgeInsets.all(16.0),
+                      child: Row(
+                        children: [
+                          RichText(
+                            textScaleFactor: 1,
+                            text: TextSpan(
+                              style: TwFont().text.base,
+                              children: <TextSpan>[
+                                DartSyntaxHighlighter(style).format(code)
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
                   ),
                 ),
               ],
