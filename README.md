@@ -44,7 +44,7 @@ dependencies:
 
 ** Look at the difference with 'tailwind' **
 
-![](./images/docs/font.png)
+![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/docs/font.png)
 
 ```html
 <p class="font-sans text-lg font-medium text-slate-900">
@@ -70,4 +70,4 @@ TwText(
 
 ## Demo in the project
 
-![](./images/docs/demo1.png)
+![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/docs/demo1.png)
