@@ -4,6 +4,7 @@ import 'package:flutter_tailwindcss/core/tw_font/size.dart';
 export 'package:flutter_tailwindcss/core/tw_font/color.dart';
 export 'package:flutter_tailwindcss/core/tw_font/weight.dart';
 export 'package:flutter_tailwindcss/core/tw_font/family.dart';
+export 'package:flutter_tailwindcss/core/tw_font/style.dart';
 
 class TwFont {
   TwFont._internal();
@@ -11,16 +12,6 @@ class TwFont {
   factory TwFont() => _instance;
 
   static late final TwFont _instance = TwFont._internal();
-
-  /// Font Style
-  ///
-  /// https://tailwindcss.com/docs/font-style
-  TextStyle get italic => const TextStyle(fontStyle: FontStyle.italic);
-
-  /// Font Style
-  ///
-  /// https://tailwindcss.com/docs/font-style
-  TextStyle get notItalic => const TextStyle(fontStyle: FontStyle.normal);
 
   /// Text Overflow
   ///
