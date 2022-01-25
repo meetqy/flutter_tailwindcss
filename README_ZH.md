@@ -2,6 +2,8 @@
 
 体验用 tailwind 的方式去写 flutter 样式
 
+> 温馨提示：体验一下就完事了，别真的用到项目上。
+
 ## 介绍
 
 [中文](./README_ZH.md) | [English](./README.md)
@@ -10,7 +12,7 @@
 
 ```
 dependencies:
-  flutter_vant_kit: ^0.0.3
+  flutter_vant_kit: ^0.0.4
 ```
 
 ## 进度
@@ -26,7 +28,7 @@ dependencies:
 | ⏳ planing | `Divide`       | -       |
 | ⏳ planing | `Shadow`       | -       |
 
-## 实例
+## 基础属性
 
 ### colors
 
@@ -36,11 +38,17 @@ dependencies:
 
 ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/docs/spacing.png)
 
+但从属性上来看这是一个略显鸡肋的东西，在我个人写 demo 的时候发现了不能设置多个方向和不同数值。
+
+后面会从`复合型Widget`上面考虑，这样结合起来，可能会更加实用。
+
+## 复合型 Widget
+
 ### TwText
 
 `TwText` 和 `TwFont` 结合使用，TwText 相当于 flutter 中的 Text 只不过多了一个`className`参数。
 
-**看下和`tailwind`的差异**
+### 与`tailwind`对比一下
 
 ![](./images/docs/font.png)
 
