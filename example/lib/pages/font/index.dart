@@ -1,5 +1,6 @@
 import 'package:example/pages/font/family.dart';
-import 'package:example/pages/font/font_size.dart';
+import 'package:example/pages/font/letter_spacing.dart';
+import 'package:example/pages/font/size.dart';
 import 'package:example/pages/font/style.dart';
 import 'package:example/pages/font/weight.dart';
 import 'package:flutter/material.dart';
@@ -18,6 +19,7 @@ class _FontPageState extends State<FontPage> {
     Tab(text: "Font Size"),
     Tab(text: "Font Style"),
     Tab(text: "Font Weight"),
+    Tab(text: "Letter Spacing"),
   ];
 
   @override
@@ -36,7 +38,13 @@ class _FontPageState extends State<FontPage> {
           ),
         ),
         body: const TabBarView(
-          children: [FontFamily(), FontSize(), FontStyle(), FontWeight()],
+          children: [
+            FontFamily(),
+            FontSize(),
+            FontStyle(),
+            FontWeight(),
+            LetterSpacing()
+          ],
         ),
       ),
     );
