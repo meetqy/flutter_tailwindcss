@@ -30,7 +30,7 @@ TwText title(String text) {
     className: [
       TwFont().text.lg,
       TwFont().semibold,
-      TwFont().slate.shade900,
+      TwFont().text.slate.shade900,
       TwFont().serif
     ],
   );
@@ -81,7 +81,7 @@ Widget cardDemoTitle(String str) {
   return TwText(str, className: [
     TwFont().sans,
     TwFont().text.sm,
-    TwFont().slate.shade500,
+    TwFont().text.slate.shade500,
     TwFont().medium
   ]);
 }

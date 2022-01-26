@@ -14,7 +14,7 @@ String code = '''TwText(
       TwFont().tracking.tighter,
       TwFont().text.lg,
       TwFont().medium,
-      TwFont().slate.shade900
+      TwFont().text.slate.shade900
     ],
 );''';
 
@@ -34,13 +34,13 @@ class LetterSpacing extends StatelessWidget {
             TwFont().tracking.tighter,
             TwFont().text.lg,
             TwFont().medium,
-            TwFont().slate.shade900
+            TwFont().text.slate.shade900
           ]),
           TwText(strZh, className: [
             TwFont().tracking.tighter,
             TwFont().text.lg,
             TwFont().medium,
-            TwFont().slate.shade900
+            TwFont().text.slate.shade900
           ])
         ]),
         cardDemoModule(margin: TwSpacing.b8, children: [
@@ -49,13 +49,13 @@ class LetterSpacing extends StatelessWidget {
             TwFont().tracking.tight,
             TwFont().text.lg,
             TwFont().medium,
-            TwFont().slate.shade900
+            TwFont().text.slate.shade900
           ]),
           TwText(strZh, className: [
             TwFont().tracking.tight,
             TwFont().text.lg,
             TwFont().medium,
-            TwFont().slate.shade900
+            TwFont().text.slate.shade900
           ])
         ]),
         cardDemoModule(margin: TwSpacing.b8, children: [
@@ -64,13 +64,13 @@ class LetterSpacing extends StatelessWidget {
             TwFont().tracking.normal,
             TwFont().text.lg,
             TwFont().medium,
-            TwFont().slate.shade900
+            TwFont().text.slate.shade900
           ]),
           TwText(strZh, className: [
             TwFont().tracking.normal,
             TwFont().text.lg,
             TwFont().medium,
-            TwFont().slate.shade900
+            TwFont().text.slate.shade900
           ])
         ]),
         cardDemoModule(margin: TwSpacing.b8, children: [
@@ -79,13 +79,13 @@ class LetterSpacing extends StatelessWidget {
             TwFont().tracking.wide,
             TwFont().text.lg,
             TwFont().medium,
-            TwFont().slate.shade900
+            TwFont().text.slate.shade900
           ]),
           TwText(strZh, className: [
             TwFont().tracking.wide,
             TwFont().text.lg,
             TwFont().medium,
-            TwFont().slate.shade900
+            TwFont().text.slate.shade900
           ])
         ]),
         cardDemoModule(margin: TwSpacing.b8, children: [
@@ -94,13 +94,13 @@ class LetterSpacing extends StatelessWidget {
             TwFont().tracking.wider,
             TwFont().text.lg,
             TwFont().medium,
-            TwFont().slate.shade900
+            TwFont().text.slate.shade900
           ]),
           TwText(strZh, className: [
             TwFont().tracking.wider,
             TwFont().text.lg,
             TwFont().medium,
-            TwFont().slate.shade900
+            TwFont().text.slate.shade900
           ])
         ]),
         cardDemoModule(children: [
@@ -109,13 +109,13 @@ class LetterSpacing extends StatelessWidget {
             TwFont().tracking.widest,
             TwFont().text.lg,
             TwFont().medium,
-            TwFont().slate.shade900
+            TwFont().text.slate.shade900
           ]),
           TwText(strZh, className: [
             TwFont().tracking.widest,
             TwFont().text.lg,
             TwFont().medium,
-            TwFont().slate.shade900
+            TwFont().text.slate.shade900
           ])
         ]),
       ]),

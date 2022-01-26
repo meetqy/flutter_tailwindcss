@@ -8,7 +8,7 @@ String strZh = '用来控制元素字体大小的功能类。';
 
 String code = '''TwText(
     'Utilities for controlling the font size of an element.',
-    className: [TwFont().text.base, TwFont().medium, TwFont().slate.shade900],
+    className: [TwFont().text.base, TwFont().medium, TwFont().text.slate.shade900],
 );''';
 
 class FontSize extends StatelessWidget {
@@ -34,13 +34,13 @@ class FontSize extends StatelessWidget {
                   className: [
                     twFont.text.sm,
                     twFont.medium,
-                    twFont.slate.shade900
+                    twFont.text.slate.shade900
                   ],
                 ),
                 TwText(strZh, className: [
                   twFont.text.sm,
                   twFont.medium,
-                  twFont.slate.shade900
+                  twFont.text.slate.shade900
                 ]),
               ]),
               cardDemoModule(margin: TwSpacing.b8, children: [
@@ -50,13 +50,13 @@ class FontSize extends StatelessWidget {
                   className: [
                     twFont.text.base,
                     twFont.medium,
-                    twFont.slate.shade900
+                    twFont.text.slate.shade900
                   ],
                 ),
                 TwText(strZh, className: [
                   twFont.text.base,
                   twFont.medium,
-                  twFont.slate.shade900
+                  twFont.text.slate.shade900
                 ]),
               ]),
               cardDemoModule(margin: TwSpacing.b8, children: [
@@ -66,13 +66,13 @@ class FontSize extends StatelessWidget {
                   className: [
                     twFont.text.lg,
                     twFont.medium,
-                    twFont.slate.shade900
+                    twFont.text.slate.shade900
                   ],
                 ),
                 TwText(strZh, className: [
                   twFont.text.lg,
                   twFont.medium,
-                  twFont.slate.shade900
+                  twFont.text.slate.shade900
                 ]),
               ]),
               cardDemoModule(margin: TwSpacing.b8, children: [
@@ -82,13 +82,13 @@ class FontSize extends StatelessWidget {
                   className: [
                     twFont.text.xl,
                     twFont.medium,
-                    twFont.slate.shade900
+                    twFont.text.slate.shade900
                   ],
                 ),
                 TwText(strZh, className: [
                   twFont.text.xl,
                   twFont.medium,
-                  twFont.slate.shade900
+                  twFont.text.slate.shade900
                 ]),
               ]),
               cardDemoModule(children: [
@@ -98,13 +98,13 @@ class FontSize extends StatelessWidget {
                   className: [
                     twFont.text.xl2,
                     twFont.medium,
-                    twFont.slate.shade900
+                    twFont.text.slate.shade900
                   ],
                 ),
                 TwText(strZh, className: [
                   twFont.text.xl2,
                   twFont.medium,
-                  twFont.slate.shade900
+                  twFont.text.slate.shade900
                 ]),
               ])
             ]),

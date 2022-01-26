@@ -1,9 +1,9 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_tailwindcss/core/default/default.dart';
-import 'package:flutter_tailwindcss/flutter_tailwindcss.dart';
+import 'package:flutter_tailwindcss/core/tw_font/text.dart';
 
-extension TwFontColor on TwFont {
+extension TwFontColor on TwFontText {
   /// The slate primary color and swatch.
   ///
   /// ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/colors/Slate.png);

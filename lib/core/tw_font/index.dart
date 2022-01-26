@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tailwindcss/core/tw_font/letter_spacing.dart';
 import 'package:flutter_tailwindcss/core/tw_font/line_height.dart';
-import 'package:flutter_tailwindcss/core/tw_font/size.dart';
+import 'package:flutter_tailwindcss/core/tw_font/text.dart';
 
+export 'package:flutter_tailwindcss/core/tw_font/text.dart';
 export 'package:flutter_tailwindcss/core/tw_font/color.dart';
 export 'package:flutter_tailwindcss/core/tw_font/weight.dart';
 export 'package:flutter_tailwindcss/core/tw_font/family.dart';
@@ -34,7 +35,7 @@ class TwFont {
   TextStyle get clip => const TextStyle(overflow: TextOverflow.clip);
 
   /// Font Size
-  TwFontSize get text => TwFontSize();
+  TwFontText get text => TwFontText();
 
   /// Letter Spacing
   TwFontLetterSpacing get tracking => TwFontLetterSpacing();

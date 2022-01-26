@@ -11,7 +11,7 @@ String code = '''TwText(
       TwFont().sans,
       TwFont().text.lg,
       TwFont().medium,
-      TwFont().slate.shade900
+      TwFont().text.slate.shade900
     ],
 );''';
 
@@ -39,14 +39,14 @@ class FontFamily extends StatelessWidget {
                       TwFont().sans,
                       TwFont().text.lg,
                       TwFont().medium,
-                      TwFont().slate.shade900
+                      TwFont().text.slate.shade900
                     ]),
                   ),
                   TwText(strZh, className: [
                     TwFont().mono,
                     TwFont().text.lg,
                     TwFont().medium,
-                    TwFont().slate.shade900
+                    TwFont().text.slate.shade900
                   ]),
                 ]),
                 cardDemoModule(
@@ -57,13 +57,13 @@ class FontFamily extends StatelessWidget {
                       TwFont().serif,
                       TwFont().text.lg,
                       TwFont().medium,
-                      TwFont().slate.shade900
+                      TwFont().text.slate.shade900
                     ]),
                     TwText(strZh, className: [
                       TwFont().serif,
                       TwFont().text.lg,
                       TwFont().medium,
-                      TwFont().slate.shade900
+                      TwFont().text.slate.shade900
                     ]),
                   ],
                 ),
@@ -73,13 +73,13 @@ class FontFamily extends StatelessWidget {
                     TwFont().mono,
                     TwFont().text.lg,
                     TwFont().medium,
-                    TwFont().slate.shade900
+                    TwFont().text.slate.shade900
                   ]),
                   TwText(strZh, className: [
                     TwFont().mono,
                     TwFont().text.lg,
                     TwFont().medium,
-                    TwFont().slate.shade900
+                    TwFont().text.slate.shade900
                   ]),
                 ])
               ],

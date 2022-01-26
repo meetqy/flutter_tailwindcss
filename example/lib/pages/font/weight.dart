@@ -11,7 +11,7 @@ String code = '''TwText(
     className: [
       TwFont().normal,
       TwFont().text.lg,
-      TwFont().slate.shade900,
+      TwFont().text.slate.shade900,
     ],
 );''';
 
@@ -35,12 +35,12 @@ class FontWeight extends StatelessWidget {
                 TwText(str, className: [
                   TwFont().light,
                   TwFont().text.lg,
-                  TwFont().slate.shade900
+                  TwFont().text.slate.shade900
                 ]),
                 TwText(strZh, className: [
                   TwFont().light,
                   TwFont().text.lg,
-                  TwFont().slate.shade900
+                  TwFont().text.slate.shade900
                 ])
               ]),
               cardDemoModule(margin: TwSpacing.b8, children: [
@@ -48,12 +48,12 @@ class FontWeight extends StatelessWidget {
                 TwText(str, className: [
                   TwFont().normal,
                   TwFont().text.lg,
-                  TwFont().slate.shade900
+                  TwFont().text.slate.shade900
                 ]),
                 TwText(strZh, className: [
                   TwFont().normal,
                   TwFont().text.lg,
-                  TwFont().slate.shade900
+                  TwFont().text.slate.shade900
                 ])
               ]),
               cardDemoModule(margin: TwSpacing.b8, children: [
@@ -61,12 +61,12 @@ class FontWeight extends StatelessWidget {
                 TwText(str, className: [
                   TwFont().medium,
                   TwFont().text.lg,
-                  TwFont().slate.shade900
+                  TwFont().text.slate.shade900
                 ]),
                 TwText(strZh, className: [
                   TwFont().medium,
                   TwFont().text.lg,
-                  TwFont().slate.shade900
+                  TwFont().text.slate.shade900
                 ])
               ]),
               cardDemoModule(margin: TwSpacing.b8, children: [
@@ -74,12 +74,12 @@ class FontWeight extends StatelessWidget {
                 TwText(str, className: [
                   TwFont().semibold,
                   TwFont().text.lg,
-                  TwFont().slate.shade900
+                  TwFont().text.slate.shade900
                 ]),
                 TwText(strZh, className: [
                   TwFont().semibold,
                   TwFont().text.lg,
-                  TwFont().slate.shade900
+                  TwFont().text.slate.shade900
                 ])
               ]),
               cardDemoModule(children: [
@@ -87,12 +87,12 @@ class FontWeight extends StatelessWidget {
                 TwText(str, className: [
                   TwFont().bold,
                   TwFont().text.lg,
-                  TwFont().slate.shade900
+                  TwFont().text.slate.shade900
                 ]),
                 TwText(strZh, className: [
                   TwFont().bold,
                   TwFont().text.lg,
-                  TwFont().slate.shade900
+                  TwFont().text.slate.shade900
                 ])
               ]),
             ])

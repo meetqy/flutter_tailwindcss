@@ -11,7 +11,7 @@ String code =
     TwFont().underline,
     TwFont().text.lg,
     TwFont().medium,
-    TwFont().slate.shade900
+    TwFont().text.slate.shade900
 ]);''';
 
 class TextDescoration extends StatelessWidget {
@@ -30,13 +30,13 @@ class TextDescoration extends StatelessWidget {
             TwFont().underline,
             TwFont().text.lg,
             TwFont().medium,
-            TwFont().slate.shade900
+            TwFont().text.slate.shade900
           ]),
           TwText(strZh, className: [
             TwFont().underline,
             TwFont().text.lg,
             TwFont().medium,
-            TwFont().slate.shade900
+            TwFont().text.slate.shade900
           ])
         ]),
         cardDemoModule(margin: TwSpacing.b8, children: [
@@ -45,13 +45,13 @@ class TextDescoration extends StatelessWidget {
             TwFont().overline,
             TwFont().text.lg,
             TwFont().medium,
-            TwFont().slate.shade900
+            TwFont().text.slate.shade900
           ]),
           TwText(strZh, className: [
             TwFont().overline,
             TwFont().text.lg,
             TwFont().medium,
-            TwFont().slate.shade900
+            TwFont().text.slate.shade900
           ])
         ]),
         cardDemoModule(margin: TwSpacing.b8, children: [
@@ -60,13 +60,13 @@ class TextDescoration extends StatelessWidget {
             TwFont().lineThrough,
             TwFont().text.lg,
             TwFont().medium,
-            TwFont().slate.shade900
+            TwFont().text.slate.shade900
           ]),
           TwText(strZh, className: [
             TwFont().lineThrough,
             TwFont().text.lg,
             TwFont().medium,
-            TwFont().slate.shade900
+            TwFont().text.slate.shade900
           ])
         ]),
         cardDemoModule(children: [
@@ -75,13 +75,13 @@ class TextDescoration extends StatelessWidget {
             TwFont().noUnderline,
             TwFont().text.lg,
             TwFont().medium,
-            TwFont().slate.shade900
+            TwFont().text.slate.shade900
           ]),
           TwText(strZh, className: [
             TwFont().noUnderline,
             TwFont().text.lg,
             TwFont().medium,
-            TwFont().slate.shade900
+            TwFont().text.slate.shade900
           ])
         ]),
       ]),

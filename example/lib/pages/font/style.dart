@@ -10,7 +10,7 @@ String code = '''TwText(
     className: [
       TwFont().text.lg,
       TwFont().medium,
-      TwFont().slate.shade900,
+      TwFont().text.slate.shade900,
       TwFont().italic
     ],
 );''';
@@ -39,7 +39,7 @@ class FontStyle extends StatelessWidget {
                   className: [
                     twFont.text.lg,
                     twFont.medium,
-                    twFont.slate.shade900,
+                    twFont.text.slate.shade900,
                     twFont.italic
                   ],
                 ),
@@ -48,7 +48,7 @@ class FontStyle extends StatelessWidget {
                   className: [
                     twFont.text.lg,
                     twFont.medium,
-                    twFont.slate.shade900,
+                    twFont.text.slate.shade900,
                     twFont.italic
                   ],
                 ),
@@ -60,7 +60,7 @@ class FontStyle extends StatelessWidget {
                   className: [
                     twFont.text.lg,
                     twFont.medium,
-                    twFont.slate.shade900,
+                    twFont.text.slate.shade900,
                     twFont.notItalic
                   ],
                 ),
@@ -69,7 +69,7 @@ class FontStyle extends StatelessWidget {
                   className: [
                     twFont.text.lg,
                     twFont.medium,
-                    twFont.slate.shade900,
+                    twFont.text.slate.shade900,
                     twFont.notItalic
                   ],
                 ),

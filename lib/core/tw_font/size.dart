@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tailwindcss/core/default/default.dart';
+import 'package:flutter_tailwindcss/core/tw_font/text.dart';
 
 /// FontSize
-class TwFontSize {
+extension TwFontSize on TwFontText {
   /// Font Size
   ///
   ///```

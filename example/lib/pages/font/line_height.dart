@@ -12,7 +12,7 @@ String code = '''TwText(
     'So I started to walk into the water.',
     className: [
       TwFont().leading.normal,
-      TwFont().slate.shade900,
+      TwFont().text.slate.shade900,
     ],
 );''';
 
@@ -32,11 +32,11 @@ class LineHeight extends StatelessWidget {
             cardDemoTitle('leading-normal'),
             TwText(str, className: [
               TwFont().leading.normal,
-              TwFont().slate.shade900,
+              TwFont().text.slate.shade900,
             ]),
             TwText(strZh, className: [
               TwFont().leading.normal,
-              TwFont().slate.shade900,
+              TwFont().text.slate.shade900,
             ])
           ],
         ),
@@ -46,11 +46,11 @@ class LineHeight extends StatelessWidget {
             cardDemoTitle('leading-relaxed'),
             TwText(str, className: [
               TwFont().leading.relaxed,
-              TwFont().slate.shade900,
+              TwFont().text.slate.shade900,
             ]),
             TwText(strZh, className: [
               TwFont().leading.relaxed,
-              TwFont().slate.shade900,
+              TwFont().text.slate.shade900,
             ])
           ],
         ),
@@ -59,11 +59,11 @@ class LineHeight extends StatelessWidget {
             cardDemoTitle('leading-loose'),
             TwText(str, className: [
               TwFont().leading.loose,
-              TwFont().slate.shade900,
+              TwFont().text.slate.shade900,
             ]),
             TwText(strZh, className: [
               TwFont().leading.loose,
-              TwFont().slate.shade900,
+              TwFont().text.slate.shade900,
             ])
           ],
         ),
