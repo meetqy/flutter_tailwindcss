@@ -58,18 +58,36 @@ dependencies:
 </p>
 ```
 
+### 两种使用方式
+
+第一种，通过`TwText`
+
 ```dart
 TwText(
-    'The quick brown fox jumps over the lazy dog.', className: [
-    /// 文字等宽
-    TwFont().sans,
-    /// 文字大小 + 行高
-    TwFont().text.lg,
-    /// 文字颜色
-    TwFont().slate.shade900,
-    /// 加粗
-    TwFont().medium
+  'The quick brown fox jumps over the lazy dog.', className: [
+  /// 文字等宽
+  TwFont().sans,
+  /// 文字大小 + 行高
+  TwFont().text.lg,
+  /// 文字颜色
+  TwFont().slate.shade900,
+  /// 加粗
+  TwFont().medium
 ])
+```
+
+第二种，使用原生的`Text`,配合`TextStyle`扩展出来的 `className` 方法
+
+```dart
+Text(
+  'The quick brown fox jumps over the lazy dog.',
+  style: const TextStyle().className([
+    TwFont().sans,
+    TwFont().text.lg,
+    TwFont().medium,
+    TwFont().slate.shade900
+  ]),
+);
 ```
 
 > 因为 TwFont 是一个类，所以无需安装插件，也可做到智能提示

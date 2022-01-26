@@ -34,3 +34,15 @@ class TwFont {
   /// Line Height
   TwFontLineHeight get leading => TwFontLineHeight();
 }
+
+extension TwTextStyle on TextStyle {
+  TextStyle className(List<TextStyle> styles) {
+    TextStyle _style = const TextStyle();
+
+    for (var element in styles) {
+      _style = _style.merge(element);
+    }
+
+    return _style;
+  }
+}

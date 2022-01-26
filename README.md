@@ -52,18 +52,36 @@ dependencies:
 </p>
 ```
 
+### Two ways to use it
+
+First, through 'TwText'
+
 ```dart
 TwText(
-    'The quick brown fox jumps over the lazy dog.', className: [
-    /// 文字等宽
-    TwFont().sans,
-    /// 文字大小 + 行高
-    TwFont().text.lg,
-    /// 文字颜色
-    TwFont().slate.shade900,
-    /// 加粗
-    TwFont().medium
+  'The quick brown fox jumps over the lazy dog.', className: [
+  /// 文字等宽
+  TwFont().sans,
+  /// 文字大小 + 行高
+  TwFont().text.lg,
+  /// 文字颜色
+  TwFont().slate.shade900,
+  /// 加粗
+  TwFont().medium
 ])
+```
+
+The second way is to use the native 'Text' with the 'className' method `extension` from 'TextStyle'
+
+```dart
+Text(
+  'The quick brown fox jumps over the lazy dog.',
+  style: const TextStyle().className([
+    TwFont().sans,
+    TwFont().text.lg,
+    TwFont().medium,
+    TwFont().slate.shade900
+  ]),
+);
 ```
 
 > Because TwFont is a class, you don't need to install plug-ins to do this

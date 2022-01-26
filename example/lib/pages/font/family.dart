@@ -33,12 +33,15 @@ class FontFamily extends StatelessWidget {
               children: [
                 cardDemoModule(margin: TwSpacing.b8, children: [
                   cardDemoTitle('TwFont().sans'),
-                  TwText(str, className: [
-                    TwFont().sans,
-                    TwFont().text.lg,
-                    TwFont().medium,
-                    TwFont().slate.shade900
-                  ]),
+                  Text(
+                    str,
+                    style: const TextStyle().className([
+                      TwFont().sans,
+                      TwFont().text.lg,
+                      TwFont().medium,
+                      TwFont().slate.shade900
+                    ]),
+                  ),
                   TwText(strZh, className: [
                     TwFont().mono,
                     TwFont().text.lg,
