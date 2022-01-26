@@ -22,9 +22,9 @@ class LineHeight extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TabViewTemp(children: [
-      title('Line Height'),
+      title('Relative line-heights'),
       desciption(
-          'Utilities for controlling the leading (line height) of an element.'),
+          'Use the leading.none, leading.tight, leading.snug, leading.normal, leading.relaxed, and leading.loose utilities to give an element a relative line-height based on its current font-size.'),
       cardDemo(children: [
         cardDemoModule(
           margin: TwSpacing.b8,

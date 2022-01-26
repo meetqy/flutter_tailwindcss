@@ -7,6 +7,7 @@ export 'package:flutter_tailwindcss/core/tw_font/color.dart';
 export 'package:flutter_tailwindcss/core/tw_font/weight.dart';
 export 'package:flutter_tailwindcss/core/tw_font/family.dart';
 export 'package:flutter_tailwindcss/core/tw_font/style.dart';
+export 'package:flutter_tailwindcss/core/tw_font/decoration.dart';
 
 /// TODO:  `TextStyle`不能直接实现的功能类
 ///

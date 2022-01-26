@@ -8,8 +8,9 @@ class TextColor extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TabViewTemp(children: [
-      title("Text Color"),
-      desciption('Utilities for controlling the text color of an element.'),
+      title("Setting the text color"),
+      desciption(
+          'Control the text color of an element using the TwFont.{color}.{shade} utilities.'),
       gray(),
       redTw(),
       yellow(),

@@ -1,4 +1,5 @@
 import 'package:example/pages/font/color.dart';
+import 'package:example/pages/font/descoration.dart';
 import 'package:example/pages/font/family.dart';
 import 'package:example/pages/font/letter_spacing.dart';
 import 'package:example/pages/font/line_height.dart';
@@ -24,6 +25,7 @@ class _FontPageState extends State<FontPage> {
     Tab(text: "Letter Spacing"),
     Tab(text: "Line Height"),
     Tab(text: "Text Color"),
+    Tab(text: "Text Decoration"),
   ];
 
   @override
@@ -50,6 +52,7 @@ class _FontPageState extends State<FontPage> {
             LetterSpacing(),
             LineHeight(),
             TextColor(),
+            TextDescoration(),
           ],
         ),
       ),
