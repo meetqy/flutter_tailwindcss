@@ -74,6 +74,16 @@ TwText(
 
 > 因为 TwFont 是一个类，所以无需安装插件，也可做到智能提示
 
+### 可用属性
+
+| 属性           | 用法                         | tailwind                                                      |
+| -------------- | ---------------------------- | ------------------------------------------------------------- |
+| Font Family    | `TwFont().{family}`          | [font-family](https://tailwindcss.com/docs/font-family)       |
+| Font Size      | `TwFont().text.{size}`       | [font-size](https://tailwindcss.com/docs/font-size)           |
+| Font Style     | `TwFont().{style}`           | [font-style](https://tailwindcss.com/docs/font-style)         |
+| Font Weight    | `TwFont().{weight}`          | [font-weight](https://tailwindcss.com/docs/font-weight)       |
+| Letter Spacing | `TwFont().tracking.{weight}` | [letter-spacing](https://tailwindcss.com/docs/letter-spacing) |
+
 ## 项目中的 demo
 
 ![](./images/docs/demo1.png)

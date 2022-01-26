@@ -68,6 +68,16 @@ TwText(
 
 > Because TwFont is a class, you don't need to install plug-ins to do this
 
+### Available Properties
+
+| Properties     | Usage                        | Tailwind                                                      |
+| -------------- | ---------------------------- | ------------------------------------------------------------- |
+| Font Family    | `TwFont().{family}`          | [font-family](https://tailwindcss.com/docs/font-family)       |
+| Font Size      | `TwFont().text.{size}`       | [font-size](https://tailwindcss.com/docs/font-size)           |
+| Font Style     | `TwFont().{style}`           | [font-style](https://tailwindcss.com/docs/font-style)         |
+| Font Weight    | `TwFont().{weight}`          | [font-weight](https://tailwindcss.com/docs/font-weight)       |
+| Letter Spacing | `TwFont().tracking.{weight}` | [letter-spacing](https://tailwindcss.com/docs/letter-spacing) |
+
 ## Demo in the project
 
 ![](https://gitee.com/meetqy/flutter_tailwindcss/raw/main/images/docs/demo1.png)
