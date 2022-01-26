@@ -45,11 +45,11 @@ TwText desciption(String text) {
 }
 
 /// 实例
-Container cardDemo({required List<Widget> children}) {
+Container cardDemo({required List<Widget> children, Color? color}) {
   return Container(
     margin: TwSpacing.t4,
     child: Card(
-      color: TwColor.slate.shade50,
+      color: color is Color ? color : TwColor.slate.shade50,
       child: Padding(
         padding: TwSpacing.a4,
         child: Column(

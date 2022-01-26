@@ -8,6 +8,13 @@ export 'package:flutter_tailwindcss/core/tw_font/weight.dart';
 export 'package:flutter_tailwindcss/core/tw_font/family.dart';
 export 'package:flutter_tailwindcss/core/tw_font/style.dart';
 
+/// TODO:  `TextStyle`不能直接实现的功能类
+///
+/// * Font Variant Numeric
+/// * List Style Type
+/// * List Style Position
+/// * Text Alignment
+
 class TwFont {
   TwFont._internal();
 
