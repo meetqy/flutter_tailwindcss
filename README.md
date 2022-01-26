@@ -70,13 +70,14 @@ TwText(
 
 ### Available Properties
 
-| Properties     | Usage                        | Tailwind                                                      |
-| -------------- | ---------------------------- | ------------------------------------------------------------- |
-| Font Family    | `TwFont().{family}`          | [font-family](https://tailwindcss.com/docs/font-family)       |
-| Font Size      | `TwFont().text.{size}`       | [font-size](https://tailwindcss.com/docs/font-size)           |
-| Font Style     | `TwFont().{style}`           | [font-style](https://tailwindcss.com/docs/font-style)         |
-| Font Weight    | `TwFont().{weight}`          | [font-weight](https://tailwindcss.com/docs/font-weight)       |
-| Letter Spacing | `TwFont().tracking.{weight}` | [letter-spacing](https://tailwindcss.com/docs/letter-spacing) |
+| Properties     | Usage                         | Tailwind                                                      |
+| -------------- | ----------------------------- | ------------------------------------------------------------- |
+| Font Family    | `TwFont().{family}`           | [font-family](https://tailwindcss.com/docs/font-family)       |
+| Font Size      | `TwFont().text.{size}`        | [font-size](https://tailwindcss.com/docs/font-size)           |
+| Font Style     | `TwFont().{style}`            | [font-style](https://tailwindcss.com/docs/font-style)         |
+| Font Weight    | `TwFont().{weight}`           | [font-weight](https://tailwindcss.com/docs/font-weight)       |
+| Letter Spacing | `TwFont().tracking.{spacing}` | [letter-spacing](https://tailwindcss.com/docs/letter-spacing) |
+| Line Height    | `TwFont().leading.{height}`   | [line-height](https://tailwindcss.com/docs/line-height)       |
 
 ## Demo in the project
 

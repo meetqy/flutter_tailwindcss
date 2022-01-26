@@ -1,5 +1,6 @@
 import 'package:example/pages/font/family.dart';
 import 'package:example/pages/font/letter_spacing.dart';
+import 'package:example/pages/font/line_height.dart';
 import 'package:example/pages/font/size.dart';
 import 'package:example/pages/font/style.dart';
 import 'package:example/pages/font/weight.dart';
@@ -20,6 +21,7 @@ class _FontPageState extends State<FontPage> {
     Tab(text: "Font Style"),
     Tab(text: "Font Weight"),
     Tab(text: "Letter Spacing"),
+    Tab(text: "Line Height"),
   ];
 
   @override
@@ -43,7 +45,8 @@ class _FontPageState extends State<FontPage> {
             FontSize(),
             FontStyle(),
             FontWeight(),
-            LetterSpacing()
+            LetterSpacing(),
+            LineHeight()
           ],
         ),
       ),

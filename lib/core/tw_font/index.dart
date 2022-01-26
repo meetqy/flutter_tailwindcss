@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tailwindcss/core/tw_font/letter_spacing.dart';
+import 'package:flutter_tailwindcss/core/tw_font/line_height.dart';
 import 'package:flutter_tailwindcss/core/tw_font/size.dart';
 
 export 'package:flutter_tailwindcss/core/tw_font/color.dart';
@@ -27,6 +28,9 @@ class TwFont {
   /// Font Size
   TwFontSize get text => TwFontSize();
 
-  /// letter-spacing
+  /// Letter Spacing
   TwFontLetterSpacing get tracking => TwFontLetterSpacing();
+
+  /// Line Height
+  TwFontLineHeight get leading => TwFontLineHeight();
 }

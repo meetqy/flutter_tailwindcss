@@ -8,6 +8,16 @@ String str =
 
 String strZh = '用于控制元素的字距（字母间距）的功能类。';
 
+String code = '''TwText(
+    'Utilities for controlling the tracking (letter spacing) of an element.',
+    className: [
+      TwFont().tracking.tighter,
+      TwFont().text.lg,
+      TwFont().medium,
+      TwFont().slate.shade900
+    ],
+);''';
+
 class LetterSpacing extends StatelessWidget {
   const LetterSpacing({Key? key}) : super(key: key);
 
@@ -93,7 +103,7 @@ class LetterSpacing extends StatelessWidget {
             TwFont().slate.shade900
           ])
         ]),
-        cardDemoModule(margin: TwSpacing.b8, children: [
+        cardDemoModule(children: [
           cardDemoTitle('tracking-widest'),
           TwText(str, className: [
             TwFont().tracking.widest,
@@ -108,7 +118,8 @@ class LetterSpacing extends StatelessWidget {
             TwFont().slate.shade900
           ])
         ]),
-      ])
+      ]),
+      cardDemoCode(context, code)
     ]);
   }
 }

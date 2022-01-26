@@ -82,7 +82,7 @@ class FontWeight extends StatelessWidget {
                   TwFont().slate.shade900
                 ])
               ]),
-              cardDemoModule(margin: TwSpacing.b8, children: [
+              cardDemoModule(children: [
                 cardDemoTitle('font-bold'),
                 TwText(str, className: [
                   TwFont().bold,
