@@ -161,11 +161,21 @@ extension TwFontColor on TwFontText {
 
 // 实现 TwFont.color.slate 可直接使用
 class TwColorSwatch<T> extends TextStyle {
-  const TwColorSwatch(this._primary, this._swatch) : super(color: _primary);
+  const TwColorSwatch(this._primary, this._swatch, this.type)
+      : super(color: _primary);
 
   final Color _primary;
 
-  TextStyle get value => TextStyle(color: _primary);
+  /// decoration 和 text color
+  ///
+  /// decoration => TextStyle(decorationColor: color);
+  ///
+  /// text color => TextStyle(color: color);
+  final TwColorType type;
+
+  TextStyle get value => type == TwColorType.text
+      ? TextStyle(color: _primary)
+      : TextStyle(decorationColor: _primary);
 
   @protected
   final Map<T, Color> _swatch;
@@ -186,9 +196,18 @@ class TwColorSwatch<T> extends TextStyle {
   int get hashCode => hashValues(runtimeType, value, _swatch);
 }
 
+enum TwColorType {
+  /// 文字颜色
+  text,
+
+  /// decoration
+  decoration
+}
+
 class TwMaterialColor extends TwColorSwatch<int> {
-  const TwMaterialColor(Color primary, Map<int, Color> _swatch)
-      : super(primary, _swatch);
+  const TwMaterialColor(Color primary, Map<int, Color> _swatch,
+      {TwColorType type = TwColorType.text})
+      : super(primary, _swatch, type);
 
   /// The lightest shade.
   TextStyle get shade50 => this[50]!;

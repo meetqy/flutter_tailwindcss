@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tailwindcss/core/tw_font/letter_spacing.dart';
 import 'package:flutter_tailwindcss/core/tw_font/line_height.dart';
-import 'package:flutter_tailwindcss/core/tw_font/text.dart';
+import 'package:flutter_tailwindcss/core/tw_font/template.dart';
 
 export 'package:flutter_tailwindcss/core/tw_font/text.dart';
 export 'package:flutter_tailwindcss/core/tw_font/color.dart';
@@ -42,6 +42,9 @@ class TwFont {
 
   /// Line Height
   TwFontLineHeight get leading => TwFontLineHeight();
+
+  /// Decoration
+  TwFontDecoration get decoration => TwFontDecoration();
 }
 
 extension TwTextStyle on TextStyle {

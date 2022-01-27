@@ -14,6 +14,15 @@ String code =
     TwFont().text.slate.shade900
 ]);''';
 
+String codeColor = '''TextSpan(
+    text: 'watch pod-racing',
+    style: const TextStyle().className([
+      TwFont().underline,
+      TwFont().decoration.pink.shade500,
+      TwFont().bold,
+    ]),
+);''';
+
 class TextDescoration extends StatelessWidget {
   const TextDescoration({Key? key}) : super(key: key);
 
@@ -85,7 +94,45 @@ class TextDescoration extends StatelessWidget {
           ])
         ]),
       ]),
-      cardDemoCode(context, code)
+      cardDemoCode(context, code),
+      title('Setting the text decoration color'),
+      desciption(
+          '''Use the TwFont().decoration.{color} utilities to change the color of an element’s text decoration.'''),
+      cardDemo(children: [
+        cardDemoModule(children: [
+          Text.rich(TextSpan(children: [
+            const TextSpan(
+                text:
+                    'I’m Derek, an astro-engineer based in Tattooine. I like to build X-Wings at'),
+            TextSpan(
+                text: 'My Company, Inc',
+                style: const TextStyle().className([
+                  TwFont().underline,
+                  TwFont().decoration.sky.shade500,
+                  TwFont().bold
+                ])),
+            const TextSpan(text: '. Outside of work, I like to '),
+            TextSpan(
+              text: 'watch pod-racing',
+              style: const TextStyle().className([
+                TwFont().underline,
+                TwFont().decoration.pink.shade500,
+                TwFont().bold
+              ]),
+            ),
+            const TextSpan(text: ' and have '),
+            TextSpan(
+                text: 'light-saber',
+                style: const TextStyle().className([
+                  TwFont().underline,
+                  TwFont().decoration.indigo.shade500,
+                  TwFont().bold
+                ])),
+            const TextSpan(text: ' fights.')
+          ]))
+        ])
+      ]),
+      cardDemoCode(context, codeColor)
     ]);
   }
 }
