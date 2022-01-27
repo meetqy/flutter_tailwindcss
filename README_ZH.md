@@ -94,14 +94,16 @@ Text(
 
 ### 可用属性
 
-| 属性           | 用法                          | tailwind                                                      |
-| -------------- | ----------------------------- | ------------------------------------------------------------- |
-| Font Family    | `TwFont().{family}`           | [font-family](https://tailwindcss.com/docs/font-family)       |
-| Font Size      | `TwFont().text.{size}`        | [font-size](https://tailwindcss.com/docs/font-size)           |
-| Font Style     | `TwFont().{style}`            | [font-style](https://tailwindcss.com/docs/font-style)         |
-| Font Weight    | `TwFont().{weight}`           | [font-weight](https://tailwindcss.com/docs/font-weight)       |
-| Letter Spacing | `TwFont().tracking.{spacing}` | [letter-spacing](https://tailwindcss.com/docs/letter-spacing) |
-| Line Height    | `TwFont().leading.{height}`   | [line-height](https://tailwindcss.com/docs/line-height)       |
+| 属性            | 用法                                                                                          | tailwind                                                        |
+| --------------- | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| Font Family     | `TwFont().{family}`                                                                           | [font-family](https://tailwindcss.com/docs/font-family)         |
+| Font Size       | `TwFont().text.{size}`                                                                        | [font-size](https://tailwindcss.com/docs/font-size)             |
+| Font Style      | `TwFont().{style}`                                                                            | [font-style](https://tailwindcss.com/docs/font-style)           |
+| Font Weight     | `TwFont().{weight}`                                                                           | [font-weight](https://tailwindcss.com/docs/font-weight)         |
+| Letter Spacing  | `TwFont().tracking.{spacing}`                                                                 | [letter-spacing](https://tailwindcss.com/docs/letter-spacing)   |
+| Line Height     | `TwFont().leading.{height}`                                                                   | [line-height](https://tailwindcss.com/docs/line-height)         |
+| Text Color      | `TwFont().text.{color}`                                                                       | [text-color](https://tailwindcss.com/docs/text-color)           |
+| Text Decoration | `TwFont().{decoration}`, `decoraiton.{colot}`, `decoraiton.{style}`, `decoraiton.{thickness}` | [text-decoration](https://tailwindcss.com/docs/text-decoration) |
 
 ## 项目中的 demo
 
