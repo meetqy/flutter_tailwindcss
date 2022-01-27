@@ -180,3 +180,20 @@ extension TwFontDecorationColor on TwFontDecoration {
   TwMaterialColor get rose =>
       _handle(TwConfig.colors.rose[500]!, TwConfig.colors.rose);
 }
+
+extension TwFontDecorationStyle on TwFontDecoration {
+  TextStyle get solid =>
+      const TextStyle(decorationStyle: TextDecorationStyle.solid);
+
+  TextStyle get double =>
+      const TextStyle(decorationStyle: TextDecorationStyle.double);
+
+  TextStyle get dotted =>
+      const TextStyle(decorationStyle: TextDecorationStyle.dotted);
+
+  TextStyle get dashed =>
+      const TextStyle(decorationStyle: TextDecorationStyle.dashed);
+
+  TextStyle get wavy =>
+      const TextStyle(decorationStyle: TextDecorationStyle.wavy);
+}

@@ -23,6 +23,16 @@ String codeColor = '''TextSpan(
     ]),
 );''';
 
+String codeStyle = '''TwText(
+    'The quick brown fox jumps over the lazy dog.',
+    className: [
+      TwFont().text.lg,
+      TwFont().medium,
+      TwFont().underline,
+      TwFont().decoration.wavy
+    ],
+);''';
+
 class TextDescoration extends StatelessWidget {
   const TextDescoration({Key? key}) : super(key: key);
 
@@ -132,7 +142,73 @@ class TextDescoration extends StatelessWidget {
           ]))
         ])
       ]),
-      cardDemoCode(context, codeColor)
+      cardDemoCode(context, codeColor),
+      title('Setting the text decoration style'),
+      desciption(
+          'Use the TwFont().decoration.{style} utilities to change the style of an element’s text decoration.'),
+      cardDemo(children: [
+        cardDemoModule(margin: TwSpacing.b8, children: [
+          cardDemoTitle('decoration.solid'),
+          TwText(
+            'The quick brown fox jumps over the lazy dog.',
+            className: [
+              TwFont().text.lg,
+              TwFont().medium,
+              TwFont().underline,
+              TwFont().decoration.solid
+            ],
+          )
+        ]),
+        cardDemoModule(margin: TwSpacing.b8, children: [
+          cardDemoTitle('decoration.double'),
+          TwText(
+            'The quick brown fox jumps over the lazy dog.',
+            className: [
+              TwFont().text.lg,
+              TwFont().medium,
+              TwFont().underline,
+              TwFont().decoration.double
+            ],
+          )
+        ]),
+        cardDemoModule(margin: TwSpacing.b8, children: [
+          cardDemoTitle('decoration.dotted'),
+          TwText(
+            'The quick brown fox jumps over the lazy dog.',
+            className: [
+              TwFont().text.lg,
+              TwFont().medium,
+              TwFont().underline,
+              TwFont().decoration.dotted
+            ],
+          )
+        ]),
+        cardDemoModule(margin: TwSpacing.b8, children: [
+          cardDemoTitle('decoration.dashed'),
+          TwText(
+            'The quick brown fox jumps over the lazy dog.',
+            className: [
+              TwFont().text.lg,
+              TwFont().medium,
+              TwFont().underline,
+              TwFont().decoration.dashed
+            ],
+          )
+        ]),
+        cardDemoModule(children: [
+          cardDemoTitle('decoration.wavy'),
+          TwText(
+            'The quick brown fox jumps over the lazy dog.',
+            className: [
+              TwFont().text.lg,
+              TwFont().medium,
+              TwFont().underline,
+              TwFont().decoration.wavy
+            ],
+          )
+        ]),
+      ]),
+      cardDemoCode(context, codeStyle)
     ]);
   }
 }
