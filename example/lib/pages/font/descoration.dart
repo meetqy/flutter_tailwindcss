@@ -208,7 +208,39 @@ class TextDescoration extends StatelessWidget {
           )
         ]),
       ]),
-      cardDemoCode(context, codeStyle)
+      cardDemoCode(context, codeStyle),
+      title('Setting the text decoration thickness'),
+      desciption(
+          'Use the decoration.thickness{width} utilities to change the thickness of an element’s text decoration.'),
+      cardDemo(children: [
+        cardDemoModule(margin: TwSpacing.b8, children: [
+          cardDemoTitle('thickness1'),
+          TwText('The quick brown fox jumps over the lazy dog.', className: [
+            TwFont().underline,
+            TwFont().decoration.thickness1,
+            TwFont().text.lg,
+            TwFont().medium
+          ]),
+        ]),
+        cardDemoModule(margin: TwSpacing.b8, children: [
+          cardDemoTitle('thickness2'),
+          TwText('The quick brown fox jumps over the lazy dog.', className: [
+            TwFont().underline,
+            TwFont().decoration.thickness2,
+            TwFont().text.lg,
+            TwFont().medium
+          ]),
+        ]),
+        cardDemoModule(children: [
+          cardDemoTitle('thickness4'),
+          TwText('The quick brown fox jumps over the lazy dog.', className: [
+            TwFont().underline,
+            TwFont().decoration.thickness4,
+            TwFont().text.lg,
+            TwFont().medium
+          ]),
+        ])
+      ])
     ]);
   }
 }

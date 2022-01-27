@@ -21,6 +21,7 @@ extension TwFontDecorationText on TwFont {
 /// Text Decoration Thickness
 class TwFontDecoration {}
 
+/// decoration color
 extension TwFontDecorationColor on TwFontDecoration {
   TwMaterialColor _handle(Color primary, Map<int, Color> colors) {
     return TwMaterialColor(primary, colors, type: TwColorType.decoration);
@@ -181,6 +182,7 @@ extension TwFontDecorationColor on TwFontDecoration {
       _handle(TwConfig.colors.rose[500]!, TwConfig.colors.rose);
 }
 
+/// decoration style
 extension TwFontDecorationStyle on TwFontDecoration {
   TextStyle get solid =>
       const TextStyle(decorationStyle: TextDecorationStyle.solid);
@@ -196,4 +198,14 @@ extension TwFontDecorationStyle on TwFontDecoration {
 
   TextStyle get wavy =>
       const TextStyle(decorationStyle: TextDecorationStyle.wavy);
+}
+
+/// decoration thickness
+extension TwFontDecorationThickness on TwFontDecoration {
+  TextStyle get thickness0 => const TextStyle(decorationThickness: 0);
+  TextStyle get thickness1 => const TextStyle(decorationThickness: 1);
+  TextStyle get thickness2 => const TextStyle(decorationThickness: 2);
+  TextStyle get thickness4 => const TextStyle(decorationThickness: 4);
+  TextStyle get thickness6 => const TextStyle(decorationThickness: 6);
+  TextStyle get thickness8 => const TextStyle(decorationThickness: 8);
 }
